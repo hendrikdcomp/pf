@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculadora Financeira</title>
+    <script src="Reso1.js" defer></script>
+
+</head>
+<body>
+<form>
+  <div style="text-align:left; ">
+    <h1>Calculadora Financeira</h1>
+    <br>
+    <b>PORCENTAGENS</b>
+    <br>
+    <input type="number" name="n1" id="n1" placeholder="Numero">
+    <input type="number" name="n2" id="n2" placeholder="%">
+    <br>
+    <input type="button" value="Porcentagem de um numero" onclick="porcendonum();">
+    <input type="button" value="Aumento Percentual" onclick="aumentoporcentual();">
+    <input type="button" value="Desconto Percentual" onclick="descontoporcentual();">
+    <input type="button" value="Margem de Venda" onclick="margemvenda();">
+    <input type="button" value="Variacao Percentual" onclick="variacaopercentual()">
+    <input type="button" value="Relacao percentual" onclick="relacaopercentual()">
+    <br>
+    <b>RESULTADO = </b>
+    <input type="number" name="resultado" id="result" >
+    <hr>
+    <br>
+    <b>JUROS SIMPLES</b>
+    <br>
+    <input type="number" name="VP" id="n1js" placeholder="Valor presente">
+    <input type="number" name="VF" id="n2js" placeholder="Valor Futuro" >
+    <input type="number" name="TAXA" id="n3js" placeholder="Taxa">
+    <input type="number" name="PERIODO" id="n4js" placeholder="Numero de periodos">
+    <br>
+    <input type="button" value="Valor Futuro" onclick="valorfuturojs()">
+    <input type="button" value="Valor Presente" onclick="valorpresentejs()">
+    <input type="button" value="Taxa de Juros" onclick="taxajs()">
+    <input type="button" value="Periodos" onclick="periodosjs()">
+    <br>
+    <b>RESULTADO = </b>
+    <input type="number" name="resultado" id="resultjs">
+    <hr>
+    <br>
+    <b>JUROS COMPOSTOS</b>
+    <br>
+    <input type="number" name="VP" id="n1jc" placeholder="Valor presente">
+    <input type="number" name="VF" id="n2jc" placeholder="Valor Futuro" >
+    <input type="number" name="TAXA" id="n3jc" placeholder="Taxa">
+    <input type="number" name="PERIODO" id="n4jc" placeholder="Numero de periodos">
+    <br>
+    <input type="button" value="Valor Futuro" onclick="valorfuturojc()">
+    <input type="button" value="Valor Presente" onclick="valorpresentejc()">
+    <input type="button" value="Taxa de Juros" onclick="taxajc()">
+    <input type="button" value="Periodos" onclick="periodosjc()">
+    <br>
+    <b>RESULTADO = </b>
+    <input type="number" name="resultado" id="resultjc">
+    <hr>
+    <br>
+    <b>CONVERSÃO DE TAXAS</b>
+    <br>
+    <input type="number" name="Taxa" id="Ctaxa" placeholder="Taxa">
+    <input type="number" name="periodo1" id="P1taxa" placeholder="De: (dias)">
+    <input type="number" name="periodo2" id="P2taxa" placeholder="Para: (dias)">
+    <br>
+    <input type="button" value="Calcular" onclick="convertertaxas()">
+    <br>
+    <b>RESULTADO = </b>
+    <input type="number" name="resultado" id="resultadotaxa">
+    <hr>
+    <br>
+    <b>TABELA DE CONVERSÃO</b>
+    <br>
+    <b>Semana = 7 dias, Mes = 30 dias, Bimestre = 2 meses, Trismestre = 3 meses, Ano = 12 meses ou 360 dias</b>
+    <br><br>
+    <b>DINHEIRO NO TEMPO</b>
+    <br>
+    <input type="number" name="taxa" id="DnTaxa" placeholder="Taxa">
+    <input type="number" name="periodos" id="Dntper" placeholder="Periodo">
+    <input type="number" name="valor periodico" id="DnTVP" placeholder="Valor periodico">
+    <input type="number" name="valor presente" id="DntVPr" placeholder="Valor presente">
+    <input type="number" name="valor futuro" id="DnTVF" placeholder="Valor futuro">
+    <br>
+    <input type="button" value="Valor Futuro" onclick="dntvf()">
+    <input type="button" value="Valor Presente" onclick="dntvp()">
+    <br>
+    <b>RESULTADO = </b>
+    <input type="number" name="resultado" id="Dntres">
+    <br><br>
+    <b>FINANCIAMENTO E EMPRÉSTIMOS</b>
+    <br>
+    <input type="number" name="taxa" id="FeEtaxa" placeholder="Taxa">
+    <input type="number" name="periodos" id="FeEperiodo" placeholder="Periodo">
+    <input type="number" name="valorpresente" id="FeEVPr" placeholder="Valor Presente">
+    <input type="number" name="valorfuturo" id="FeEVF" placeholder="Valor Futuro">
+    <input type="number" name="valorperiodico" id="FeEVP" placeholder="Valor Periodico">
+    <input type="button" value="Valor Periodico" onclick="feevp()">
+    <input type="button" value="Periodos" onclick="feepr()">
+    <br>
+    <b>RESULTADO = </b>
+    <input type="number" name="resultado" id="FeEres">
+  </div>
+</form>
+</body>
+</html>

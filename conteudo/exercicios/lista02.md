@@ -12,67 +12,66 @@ export_on_save:
 
 _OBS: em todos os casos, uma vez resolvido o problema original, procure enriquecer seu programa com algumas das ideias ilustradas anteriormente._ 
 
-2.1 Programa para calcular a área de um retângulo dados os comprimentos de duas arestas (já resolvido anteriormente).
+!!! note Q1. Programa para calcular a área de um retângulo dados os comprimentos de duas arestas
+    Já resolvido no material de aula.
 
-2.2 Programa para calcular a área de uma circunferência dado o valor do raio.
+!!! note Q2. Programa para calcular a área de uma circunferência dado o valor do raio.
 
-2.3 Programa para determinar se três valores passados podem representar um triângulo ou não.
+!!! note Q3. Programa para determinar se três valores passados podem representar um triângulo ou não.
 
-2.4 Programa para classificar um triângulo em Equilátero, Isósceles ou Escaleno a partir dos valores de seus três lados.
+!!! note Q4. Programa para classificar um triângulo em Equilátero, Isósceles ou Escaleno a partir dos valores de seus três lados.
 
-2.5 Programa para calcular a distância euclidiana entre dois pontos $[(x1, y1), (x2,y2)]$ no plano cartesiano. Utilize a equação geral da reta para calcular a distância quando a reta não for paralela a nenhum dos eixos (abscissas ou ordenadas) e as versões simplificadas quando for paralela.
+!!! note Q5. Programa para calcular a distância euclidiana entre dois pontos $[(x1, y1), (x2,y2)]$ no plano cartesiano. Utilize a equação geral da reta para calcular a distância quando a reta não for paralela a nenhum dos eixos (abscissas ou ordenadas) e as versões simplificadas quando for paralela.
 
-[RESOLVIDO] 2.6 Fornecidos três valores, a, b e c, escreva um programa que retorne quantos dos três são iguais. A resposta pode ser 3 (todos iguais), 2 (apenas um diferente) ou 0 (todos diferentes).
+!!! note Q6. Fornecidos três valores, a, b e c, escreva um programa que retorne quantos dos três são iguais. A resposta pode ser 3 (todos iguais), 2 (apenas um diferente) ou 0 (todos diferentes).
 
-[Algoritmo]
+    [Algoritmo]
 
-resultado $\to fquantosIguais(a, b, c)$
+    resultado $\to fquantosIguais(a, b, c)$
 
-Subproblemas são gerados...
-$a = ?$, $b = ?$, $c = ?$
-$fquantosIguais(...,...) = ?$
+    Subproblemas são gerados...
+    $a = ?$, $b = ?$, $c = ?$
+    $fquantosIguais(...,...) = ?$
 
-... e resolvidos:
-$a$, $b$, $c$ são pré-definidos ou fornecidos pelo usuário 
-$fquantosIguais(x, y, z) =$ Se $x=y=z$ então retorne $3$, senão, Se $x\neq y \neq z$ então retorne 0, caso contrário, retorne $2$.   
+    ... e resolvidos:
+    $a$, $b$, $c$ são pré-definidos ou fornecidos pelo usuário 
+    $fquantosIguais(x, y, z) =$ Se $x=y=z$ então retorne $3$, senão, Se $x\neq y \neq z$ então retorne 0, caso contrário, retorne $2$.   
 
-[Programa]
-```js
-function fquantosIguais(x, y, z) { 
-    if (x==y && y==z)
-        return 3
-    else if (x!=y && y!= z && x!= z)
-            return 0
-         else 
-            return 2
-}
+    [Programa]
+    ```js {.line-numbers}
+    function fquantosIguais(x, y, z) { 
+        if (x==y && y==z)
+            return 3
+        else if (x!=y && y!= z && x!= z)
+                return 0
+            else 
+                return 2
+    }
 
-const a = 6
-const b = 5 
-const c = 4
+    const a = 6
+    const b = 5 
+    const c = 4
 
-const resultado = fquantosIguais(a,b,c)  
+    const resultado = fquantosIguais(a,b,c)  
 
-console.log(resultado)
-```
-[arquivo .js](codigos/funcexerc26.js)
+    console.log(resultado)
+    ```
+    [:fa-download:](../codigos/funcexerc26.js)
 
-2.7 Programa para retornar o menor valor entre três números quaisquer. Tente resolver considerando o sub-problema de determinar o menor valor entre dois números quaisquer (obs: em caso de valores iguais, deve-se retornar como resultado o próprio valor).
+!!! note Q7. Programa para retornar o menor valor entre três números quaisquer. Tente resolver considerando o sub-problema de determinar o menor valor entre dois números quaisquer (obs: em caso de valores iguais, deve-se retornar como resultado o próprio valor).
 
-2.8 Escrever um programa que calcule o valor de um número elevado à quarta potência. Tente fazer uso do sub-problema de calcular o quadrado de um número qualquer.
+!!! note Q8. Escrever um programa que calcule o valor de um número elevado à quarta potência. Tente fazer uso do sub-problema de calcular o quadrado de um número qualquer.
 
-2.9 Programa que calcula o "ou-exclusivo" entre dois valores-verdade (verdadeiro ou falso), dado por
-$a \otimes b = (a \lor b) \land \neg(a \land b)$.
+!!! note Q9. Programa que calcula o "ou-exclusivo" entre dois valores-verdade (verdadeiro ou falso), dado por $a \otimes b = (a \lor b) \land \neg(a \land b)$.
 
-2.10 Escreva um programa que dados o primeiro nome e o último sobrenome de uma pessoa qualquer, retorne-os em forma de citação bibliográfica conforme exemplo: Fulano Santos --> Santos, Fulano.
+!!! note Q10. Escreva um programa que dados o primeiro nome e o último sobrenome de uma pessoa qualquer, retorne-os em forma de citação bibliográfica conforme exemplo: Fulano Santos --> Santos, Fulano.
 
-2.11 Dados três valores, escreva um programa que retorne quantos desses três valores são maiores que o valor médio entre eles.
+!!! note Q11. Dados três valores, escreva um programa que retorne quantos desses três valores são maiores que o valor médio entre eles.
 
-2.12 escreva um programa para calcular o maior e o menor valor real das raízes de uma equação de segundo grau. A expressão genérica para cálculo das raízes é dada por
-$\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$.
+!!! note Q12. Escreva um programa para calcular o maior e o menor valor real das raízes de uma equação de segundo grau. A expressão genérica para cálculo das raízes é dada por $\frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$.
 
-2.13 Um móvel com velocidade constante percorre uma trajetória retilínea. Considere ${t_0 = 0}$, o instante inicial e ${x_0 = 500}$ a posição inicial. Escreva um programa para calcular a velocidade do objeto em um dado instante _t_ e posição _x_.
+!!! note Q13. Um móvel com velocidade constante percorre uma trajetória retilínea. Considere ${t_0 = 0}$, o instante inicial e ${x_0 = 500}$ a posição inicial. Escreva um programa para calcular a velocidade do objeto em um dado instante _t_ e posição _x_.
 
-2.14 Aproveitando-se do programa do cálculo da velocidade do problema anterior, escreva um programa para calcular a posição do objeto em um dado instante _t_.
+!!! note Q14. Aproveitando-se do programa do cálculo da velocidade do problema anterior, escreva um programa para calcular a posição do objeto em um dado instante _t_.
 
-2.15 Programa que escreva por extenso um determinado algarismo passado como argumento.
+!!! note Q15. Programa que escreva por extenso um determinado algarismo passado como argumento.

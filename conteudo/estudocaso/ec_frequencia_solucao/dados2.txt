@@ -1,0 +1,141 @@
+https://pt.wikipedia.org/wiki/Condicional_material
+Condicional material
+Origem: Wikipédia, a enciclopédia livre.
+O condicional material, também conhecido como implicação material, condicional funcional de verdade ou simplesmente condicional, é uma operação lógica.
+
+
+Índice
+1	Condicional material
+2	Definição da implicação lógica
+2.1	Hipótese e Tese
+2.2	Condição suficiente e condição necessária
+3	Equivalências
+3.1	Contra-recíproco (ou contraposição)
+4	Referências
+5	Bibliografia
+Condicional material
+O condicional material conecta duas proposições através de uma constante lógica. Uma condição lógica, ou simplesmente condição, é quando um fator só pode ocorrer se um outro fator ocorrer também. São fatores lógicos que determinarão uma ação. O condicional material pretende ser a versão formal do condicional na linguagem natural, o qual se expressa por meio de palavras como as seguintes:
+
+Se chover, então vou ao cinema.
+Vou ao cinema se chover.
+Quando chover, vou ao cinema.
+Simbolicamente, o condicional material deve ser notado das seguintes maneiras:
+
+{\displaystyle A\to B\,}{\displaystyle A\to B\,}
+{\displaystyle A\supset B}{\displaystyle A\supset B}, e em ocasiões:
+{\displaystyle A\Rightarrow B\,}{\displaystyle A\Rightarrow B\,}
+Onde A e B são proposições quaisquer. As variáveis A e B se conhecem respectivamente como o antecedente e o consequente do condicional.
+
+Em lógica proposicional, o condicional material é uma função de verdade binária, que devolve falso quando A é verdadeira e B é falsa, e devolve verdadeiro em qualquer outro caso. Em lógica de predicados, pode ser visto como uma relação de subconjunto entre a extensão de predicados (possivelmente complexos).
+
+Definição da implicação lógica
+Em lógica binária, ocorrem apenas dois estados:
+
+Verdadeiro, representado pela letra V, ou pelo número 1.
+Falso, representado pela letra F, ou pelo número 0.
+A implicação lógica é uma operação que verifica a seguinte tabela de verdade[1]
+
+ a 	 b 	a → b
+V	V	V
+V	F	F
+F	V	V
+F	F	V
+ou de forma equivalente
+
+ a 	 b 	a ⇒ b
+1	1	1
+1	0	0
+0	1	1
+0	0	1
+Hipótese e Tese
+Na implicação a ⇒ b usam-se as designações:
+
+a é denominada hipótese;
+b é denominada tese.
+A demonstração da tese é fundamentada pela hipótese, por uma sequência de passos lógicos.
+
+(Por abuso de linguagem fala-se em hipóteses quando nos referimos a uma única hipótese formada pela conjunção de várias afirmações. Além disso, usam-se hipóteses no contexto que são usualmente omitidas - por exemplo, as regras lógicas)
+
+Se a hipótese for falsa, então qualquer tese pode ser demonstrada, porque por definição, a implicação é verdadeira sempre que se usa uma premissa falsa. Por isso a tese só tem relevância partindo de hipótese verdadeira.
+
+Uma hipótese falsa pode servir para demonstrações por absurdo, já que deduzindo corretamente uma tese falsa (contradição), essa implicação só pode ser verdadeira se a hipótese for falsa (a ⇒ 0 é verdade só quando a=0).
+
+Condição suficiente e condição necessária
+Sendo uma implicação a ⇒ b verdadeira, usam-se as seguintes designações:
+
+a é denominada condição suficiente para obtermos b
+b é denominada condição necessária para obtermos a
+Quando se verificam ambas as implicações a ⇒ b e b ⇒ a, então a e b dizem-se condições necessárias e suficientes, dizendo-se ainda que a é equivalente a b (a ⇔ b, ou a se e só se b).
+
+Equivalências
+Através de uma tabela de verdade é fácil ver que a implicação lógica se pode reduzir à negação com disjunção: [2]
+
+(a ⇒ b) ≡ (¬a)∨ b
+porque
+
+ a 	¬a	 b 	¬a∨ b
+1	0	1	1
+1	0	0	0
+0	1	1	1
+0	1	0	1
+Esta equivalência é usada nas generalizações, já que permite definir a implicação através das noções de negação e disjunção.
+
+Por exemplo, afirmar que "ser homem implica ter cabeça", é equivalente a dizer que "não é homem" ou "tem cabeça".
+
+Contra-recíproco (ou contraposição)
+Outra equivalência importante é a da contraposição, ou contra-recíproco:
+
+(a ⇒ b) ≡ (¬b)⇒(¬ a)
+que também pode ser verificada simplesmente com uma tabela de verdade
+
+ a 	 b 	¬b	¬a	¬b⇒ ¬a
+1	1	0	0	1
+1	0	1	0	0
+0	1	0	1	1
+0	0	1	1	1
+Por exemplo, afirmar que "ser homem implica ter cabeça", é equivalente a dizer que "não ter cabeça implica não ser homem".
+
+Referências
+ Implication. Encyclopedia of Mathematics. Springer/EMS]
+ Lógica Matemática Grupo de Matemática da Universidade Técnica de Lisboa, 2004
+Bibliografia
+Brown, Frank Markham (2003), Boolean Reasoning: The Logic of Boolean Equations, 1st edition, Kluwer Academic Publishers, Norwell, MA. 2nd edition, Dover Publications, Mineola, NY, 2003.
+Edgington, Dorothy (2001), "Conditionals", em Lou Goble (ed.), The Blackwell Guide to Philosophical Logic, Blackwell.
+Edgington, Dorothy (2006), "Conditionals", em Edward N. Zalta (ed.), The Stanford Encyclopedia of Philosophy, Versão na internet.
+Quine, W.V. (1982), Methods of Logic, (1st ed. 1950), (2nd ed. 1959), (3rd ed. 1972), 4th edition, Harvard University Press, Cambridge, MA.
+Stalnaker, Robert. 'Indicative Conditionals'. Philosophia 5 (1975): 269–286.
+[Esconder]vde
+Símbolos lógicos comuns
+∧  or  &
+e
+∨
+ou
+¬  or  ~
+negado
+→
+implica
+⊃
+implica,
+superset
+≡
+sse
+|
+nand
+∀
+quantificador
+universal
+∃
+quantificador
+existencial
+⊤
+tautologia
+⊥
+falso,
+contradição
+⊢
+acarreta,
+prova que
+⊨
+acarreta
+∴
+isso implica dizer

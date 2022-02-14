@@ -1,5 +1,7 @@
 **REFS:**
 
+<span style="background-color: rgb(102,0,255); color: white;">função</span>
+
 [html](./conteudo/aulas/intro.html)
 
 [GitHub](https://github.com)
