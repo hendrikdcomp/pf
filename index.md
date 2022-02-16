@@ -53,14 +53,14 @@ toc:
 ### Módulo 4 - Recursividade
 ###### Formulação da recursividade [:fa-book:](/conteudo/aulas/26recursividadeformulacao.html)
 ###### Programação recursivda [:fa-book:](/conteudo/aulas/27programacaorecursiva.html)
-###### Programação recursiva em listas [:fa-book:](/conteudo/aulas/28programacaorecursivalistas.html)
+###### Programação recursiva em listas [:fa-book:](/conteudo/aulas/28programacaorecursivalistas.html) 
 ###### Recursividade em cauda [:fa-book:](/conteudo/aulas/29recursividadecauda.html)
 
 ### Apêndice - Entrada de dados
-###### Janela de prompt [:fa-book:]()
-###### Entrada via console NodeJS [:fa-book:]()
-###### Entrada síncrona via prompt NodeJS [:fa-book:]()
-###### Interface com HTML [:fa-book:]()
+###### Janela de prompt [:fa-book:](/conteudo/aulas/30apendicejanelaprompt.html)
+###### Entrada via console NodeJS [:fa-book:](/conteudo/aulas/31apendiceconsolenodejs.html)
+###### Entrada síncrona via prompt NodeJS [:fa-book:](/conteudo/aulas/32apendicepromptnodejs.html)
+###### Interface com HTML [:fa-book:](/conteudo/aulas/33apendiceentradahtml.html)
 
 ---
 ## Exercícios
@@ -78,7 +78,7 @@ toc:
 ###### Estudo de Caso - Matemática financeira [:fa-eye:](/conteudo/estudocaso/ec_financeira.html)
 ###### Estudo de Caso - Calculadora [:fa-eye:](/conteudo/estudocaso/ec_calculadora.html)
 ###### Estudo de Caso - *Jogo ser definido*
-###### Estudo de Caso - *Jogo ser definido*
+###### Estudo de Caso - *Jogo ser definido* 
 
 ---
 
