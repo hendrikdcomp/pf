@@ -20,9 +20,9 @@ toc:
 ## Aulas
 
 #### Módulo 1 - Fundamentos
-###### O que é programar? [:fa-book:](/conteudo/aulas/01oqueeprogramar.html)
-###### A linguagem Javascript [:fa-book:](/conteudo/aulas/02linguagemjavascript.html)
-###### Onde programar com Javascript [:fa-book:](/conteudo/aulas/03ondeprogramar.html)
+###### O que é programar? [:fa-book:](/conteudo/aulas/01oqueeprogramar.html) [:fa-tv:](https://youtu.be/OtznOZE6-ns)
+###### A linguagem Javascript [:fa-book:](/conteudo/aulas/02linguagemjavascript.html) [:fa-tv:](https://youtu.be/vzm3EJjfsmQ)
+###### Onde programar com Javascript [:fa-book:](/conteudo/aulas/03ondeprogramar.html) [:fa-tv:](https://youtu.be/b2NJFxu3DQY)
 ###### Por que "Funcional"? [:fa-book:](/conteudo/aulas/04porquefuncional.html)
 ###### Programação Funcional [:fa-book:](/conteudo/aulas/05programacaofuncional.html)
 ###### Enriquecendo a solução [:fa-book:](/conteudo/aulas/06enriquecendoprograma.html)
