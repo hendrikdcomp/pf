@@ -15,7 +15,7 @@ toc:
 # Sumário {ignore}
 [TOC]
 
-@import "./assets/images/back-funcional.jpg" {width=100%} 
+@import "./assets/images/back-funcional.jpg" {width=100%}  
 
 ## Aulas
 
@@ -24,12 +24,12 @@ toc:
 ###### A linguagem Javascript [:fa-book:](/conteudo/aulas/02linguagemjavascript.html) [:fa-tv:](https://youtu.be/vzm3EJjfsmQ)
 ###### Onde programar com Javascript [:fa-book:](/conteudo/aulas/03ondeprogramar.html) [:fa-tv:](https://youtu.be/b2NJFxu3DQY)
 ###### Por que "Funcional"? [:fa-book:](/conteudo/aulas/04porquefuncional.html) [:fa-tv:](https://youtu.be/5OAlfVrq1qE)
-###### Programação Funcional [:fa-book:](/conteudo/aulas/05programacaofuncional.html) [:fa-tv:](https://youtu.be/Ccmh07GYsQs)
+###### Programação Funcional [:fa-book:](/conteudo/aulas/05programacaofuncional.html) [:fa-tv:](https://youtu.be/Ccmh07GYsQs) 
 ###### Enriquecendo a solução [:fa-book:](/conteudo/aulas/06enriquecendoprograma.html) [:fa-tv:](https://youtu.be/l8ELcaEh4Mg)
 ###### Funções como expressões [:fa-book:](/conteudo/aulas/07funcoesexpressoes.html)
 ###### Notação *arrow* [:fa-book:](/conteudo/aulas/08notacaoarrow.html)
-###### Definição de função como retorno [:fa-book:](/conteudo/aulas/09funcaocomoretorno.html)
-###### Definição de função como argumento [:fa-book:](/conteudo/aulas/10funcaocomoargumento.html)
+###### Definição de função como retorno [:fa-book:](/conteudo/aulas/09funcaocomoretorno.html) 
+###### Definição de função como argumento [:fa-book:](/conteudo/aulas/10funcaocomoargumento.html) 
 ###### Função *anônima* [:fa-book:](/conteudo/aulas/11funcaoanonima.html)
 
 #### Módulo 2 - Coleções de dados
