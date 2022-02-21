@@ -12,8 +12,8 @@ toc:
   ordered: false
 ---
 
-# Sumário {ignore}
-[TOC]
+<!-- # Sumário {ignore}
+[TOC] -->
 
 @import "./assets/images/back-funcional.jpg" {width=100%}  
 
