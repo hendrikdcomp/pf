@@ -50,17 +50,17 @@ toc:
 ###### *Currying* [:fa-book:](/conteudo/aulas/24principioscurrying.html)
 ###### Avaliação tardia [:fa-book:](/conteudo/aulas/25principiosavaltardia.html)
 
-### Módulo 4 - Recursividade
+#### Módulo 4 - Recursividade
 ###### Formulação da recursividade [:fa-book:](/conteudo/aulas/26recursividadeformulacao.html)
 ###### Programação recursivda [:fa-book:](/conteudo/aulas/27programacaorecursiva.html)
 ###### Programação recursiva em listas [:fa-book:](/conteudo/aulas/28programacaorecursivalistas.html) 
 ###### Recursividade em cauda [:fa-book:](/conteudo/aulas/29recursividadecauda.html)
 
-### Apêndice - Entrada de dados
+#### Apêndice - Entrada de dados
 ###### Janela de prompt [:fa-book:](/conteudo/aulas/30apendicejanelaprompt.html)
 ###### Entrada via console NodeJS [:fa-book:](/conteudo/aulas/31apendiceconsolenodejs.html)
 ###### Entrada síncrona via prompt NodeJS [:fa-book:](/conteudo/aulas/32apendicepromptnodejs.html)
-###### Interface com HTML [:fa-book:](/conteudo/aulas/33apendiceentradahtml.html)
+##### Interface com HTML [:fa-book:](/conteudo/aulas/33apendiceentradahtml.html)
 
 ---
 ## Exercícios
