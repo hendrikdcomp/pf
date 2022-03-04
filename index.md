@@ -19,6 +19,8 @@ export_on_save:
 
 ## Aulas
 
+##### [:fa-list:](https://youtube.com/playlist?list=PLrX8_48jS7BcT4JdtUIHNKCuVEugPcz2d) Playlist das video-aulas 
+
 #### Módulo 1 - Fundamentos
 ###### O que é programar? [:fa-book:](/conteudo/aulas/01oqueeprogramar.html) [:fa-tv:](https://youtu.be/OtznOZE6-ns)
 ###### A linguagem Javascript [:fa-book:](/conteudo/aulas/02linguagemjavascript.html) [:fa-tv:](https://youtu.be/vzm3EJjfsmQ)
