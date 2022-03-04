@@ -26,11 +26,11 @@ export_on_save:
 ###### Por que "Funcional"? [:fa-book:](/conteudo/aulas/04porquefuncional.html) [:fa-tv:](https://youtu.be/5OAlfVrq1qE)
 ###### Programação Funcional [:fa-book:](/conteudo/aulas/05programacaofuncional.html) [:fa-tv:](https://youtu.be/Ccmh07GYsQs) 
 ###### Enriquecendo a solução [:fa-book:](/conteudo/aulas/06enriquecendoprograma.html) [:fa-tv:](https://youtu.be/l8ELcaEh4Mg)
-###### Funções como expressões [:fa-book:](/conteudo/aulas/07funcoesexpressoes.html)
-###### Notação *arrow* [:fa-book:](/conteudo/aulas/08notacaoarrow.html)
-###### Definição de função como retorno [:fa-book:](/conteudo/aulas/09funcaocomoretorno.html) 
-###### Definição de função como argumento [:fa-book:](/conteudo/aulas/10funcaocomoargumento.html) 
-###### Função *anônima* [:fa-book:](/conteudo/aulas/11funcaoanonima.html)
+###### Funções como expressões [:fa-book:](/conteudo/aulas/07funcoesexpressoes.html) [:fa-tv:](https://youtu.be/x72CpUk1mcg) 
+###### Notação *arrow* [:fa-book:](/conteudo/aulas/08notacaoarrow.html) [:fa-tv:](https://youtu.be/2PTkYMLuFOY)[:fa-tv:](https://youtu.be/oEd3Zp5dvx4)[:fa-tv:](https://youtu.be/FL_wLGXjj50)
+###### Definição de função como retorno [:fa-book:](/conteudo/aulas/09funcaocomoretorno.html) [:fa-tv:](https://youtu.be/N0vjAngeuJM)[:fa-tv:](https://youtu.be/p0GLTnDz7T8)  
+###### Definição de função como argumento [:fa-book:](/conteudo/aulas/10funcaocomoargumento.html) [:fa-tv:](https://youtu.be/QIJXZTTIxQg) 
+###### Função *anônima* [:fa-book:](/conteudo/aulas/11funcaoanonima.html) [:fa-tv:](https://youtu.be/yoYOomI51N4)[:fa-tv:](https://youtu.be/v_Ecdlqani8)[:fa-tv:](https://youtu.be/qkGi6Boa0bg)
 
 #### Módulo 2 - Coleções de dados
 ###### Coleções de dados: Listas e Registros [:fa-book:](/conteudo/aulas/12colecoes.html)
