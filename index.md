@@ -35,12 +35,12 @@ export_on_save:
 ###### Função *anônima* [:fa-book:](/conteudo/aulas/11funcaoanonima.html) [:fa-tv:](https://youtu.be/yoYOomI51N4)[:fa-tv:](https://youtu.be/v_Ecdlqani8)[:fa-tv:](https://youtu.be/qkGi6Boa0bg)
 
 #### Módulo 2 - Coleções de dados
-###### Coleções de dados: Listas e Registros [:fa-book:](/conteudo/aulas/12colecoes.html)
-###### O problema das compras [:fa-book:](/conteudo/aulas/13colecoes_compras.html)
-###### Mapeamento de elementos [:fa-book:](/conteudo/aulas/14mapeamento.html)
-###### Filtragem de elementos [:fa-book:](/conteudo/aulas/15filtragem.html)
-###### Operações de Redução [:fa-book:](/conteudo/aulas/16reducao.html)
-###### Composição de funções [:fa-book:](/conteudo/aulas/17composicao.html)
+###### Coleções de dados: Listas e Registros [:fa-book:](/conteudo/aulas/12colecoes.html) [:fa-tv:](https://youtu.be/nfiJpiOGElA)
+###### O problema das compras [:fa-book:](/conteudo/aulas/13colecoes_compras.html) [:fa-tv:](https://youtu.be/V8NTzGHIZYA)
+###### Mapeamento de elementos [:fa-book:](/conteudo/aulas/14mapeamento.html) [:fa-tv:](https://youtu.be/w5I1HLLQ5yI) [:fa-tv:](https://youtu.be/IzBosJgniWc) [:fa-tv:](https://youtu.be/LJ5OY9ky6kw) [:fa-tv:](https://youtu.be/JinulM8LOxI)
+###### Filtragem de elementos [:fa-book:](/conteudo/aulas/15filtragem.html) [:fa-tv:](https://youtu.be/FAXLp33tICY)
+###### Operações de Redução [:fa-book:](/conteudo/aulas/16reducao.html) [:fa-tv:](https://youtu.be/YG63uLaXPl4)
+###### Composição de funções [:fa-book:](/conteudo/aulas/17composicao.html) [:fa-tv:](https://youtu.be/VYz9aszr5jc)
 ###### Manipulação de dados em arquivo [:fa-book:](/conteudo/aulas/18arquivos.html)
 
 #### Módulo 3 - Princípios do paradigma
