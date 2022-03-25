@@ -41,7 +41,7 @@ export_on_save:
 ###### Filtragem de elementos [:fa-book:](/conteudo/aulas/15filtragem.html) [:fa-tv:](https://youtu.be/FAXLp33tICY)
 ###### Operações de Redução [:fa-book:](/conteudo/aulas/16reducao.html) [:fa-tv:](https://youtu.be/YG63uLaXPl4)
 ###### Composição de funções [:fa-book:](/conteudo/aulas/17composicao.html) [:fa-tv:](https://youtu.be/VYz9aszr5jc)
-###### Manipulação de dados em arquivo [:fa-book:](/conteudo/aulas/18arquivos.html)
+###### Manipulação de dados em arquivo [:fa-book:](/conteudo/aulas/18arquivos.html) [:fa-tv:](https://youtu.be/THPdtPbM11o) [:fa-tv:](https://youtu.be/_cMkkER7b50)
 
 #### Módulo 3 - Princípios do paradigma
 ###### Pureza [:fa-book:](/conteudo/aulas/19principiospureza.html)
