@@ -59,10 +59,10 @@ export_on_save:
 ###### Recursividade em cauda [:fa-book:](/conteudo/aulas/29recursividadecauda.html)
 
 #### Apêndice - Entrada de dados
-###### Janela de prompt [:fa-book:](/conteudo/aulas/30apendicejanelaprompt.html) [:fa-tv:](https://youtu.be/zLmiKiIXSgA)
+###### Janela de prompt [:fa-book:](/conteudo/aulas/30apendicejanelaprompt.html) [:fa-tv:](https://youtu.be/zLmiKiIXSgA) [:fa-tv:](https://youtu.be/svMNr2ELL8c)
 ###### Entrada via console NodeJS [:fa-book:](/conteudo/aulas/31apendiceconsolenodejs.html)
 ###### Entrada síncrona via prompt NodeJS [:fa-book:](/conteudo/aulas/32apendicepromptnodejs.html)
-###### Interface com HTML [:fa-book:](/conteudo/aulas/33apendiceentradahtml.html) [:fa-tv:](https://youtu.be/svMNr2ELL8c) [:fa-tv:](https://youtu.be/bUfIfx9ySzI)
+###### Interface com HTML [:fa-book:](/conteudo/aulas/33apendiceentradahtml.html)  [:fa-tv:](https://youtu.be/bUfIfx9ySzI)
 
 ---
 ## Exercícios
