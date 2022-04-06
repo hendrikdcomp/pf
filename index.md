@@ -43,13 +43,13 @@ export_on_save:
 ###### Composição de funções [:fa-book:](/conteudo/aulas/17composicao.html) [:fa-tv:](https://youtu.be/VYz9aszr5jc)
 ###### Manipulação de dados em arquivo [:fa-book:](/conteudo/aulas/18arquivos.html) [:fa-tv:](https://youtu.be/THPdtPbM11o) [:fa-tv:](https://youtu.be/_cMkkER7b50)
 
-#### Módulo 3 - Princípios do paradigma
-###### Pureza [:fa-book:](/conteudo/aulas/19principiospureza.html)
-###### Funções de Alta Ordem [:fa-book:](/conteudo/aulas/20principiosaltaordem.html)
-###### Cidadãs de Primeira Classe [:fa-book:](/conteudo/aulas/21principiosprimeiraclasse.html)
-###### Imutabilidade [:fa-book:](/conteudo/aulas/22principiosimutabilidade.html)
+#### Módulo 3 - Princípios do paradigma 
+###### Pureza [:fa-book:](/conteudo/aulas/19principiospureza.html) [:fa-tv:](https://youtu.be/29AdYufpn90) [:fa-tv:](https://youtu.be/i_23DNjhWbw)
+###### Funções de Alta Ordem [:fa-book:](/conteudo/aulas/20principiosaltaordem.html) [:fa-tv:](https://youtu.be/kwccTc4XTMA)
+###### Cidadãs de Primeira Classe [:fa-book:](/conteudo/aulas/21principiosprimeiraclasse.html) [:fa-tv:](https://youtu.be/pgbcJuLOhpw)
+###### Imutabilidade [:fa-book:](/conteudo/aulas/22principiosimutabilidade.html) [:fa-tv:](https://youtu.be/Gwtocq8a8IA) [:fa-tv:](https://youtu.be/k9KmbvgrRkE) [:fa-tv:](https://youtu.be/k3RzJHF20l0)
 ###### *Closure* [:fa-book:](/conteudo/aulas/23principiosclosure.html)
-###### *Currying* [:fa-book:](/conteudo/aulas/24principioscurrying.html)
+###### *Currying* [:fa-book:](/conteudo/aulas/24principioscurrying.html) [:fa-tv:](https://youtu.be/QoaY_1RLcis) [:fa-tv:](https://youtu.be/BkgIpXj3U70)
 ###### Avaliação tardia [:fa-book:](/conteudo/aulas/25principiosavaltardia.html)
 
 #### Módulo 4 - Recursividade
