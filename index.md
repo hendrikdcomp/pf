@@ -54,7 +54,7 @@ export_on_save:
 
 #### Módulo 4 - Recursividade
 ###### Formulação da recursividade [:fa-book:](/conteudo/aulas/26recursividadeformulacao.html)
-###### Programação recursivda [:fa-book:](/conteudo/aulas/27programacaorecursiva.html)
+###### Programação recursividade [:fa-book:](/conteudo/aulas/27programacaorecursiva.html) [:fa-tv:](https://youtu.be/-lvb4a9XlBQ) [:fa-tv:](https://youtu.be/hLjzT8-JTwA) [:fa-tv:](https://youtu.be/dSk5EwLsTO8) [:fa-tv:](https://youtu.be/Da7SglEH2sk) [:fa-tv:](https://youtu.be/gRU45SzvVj4)
 ###### Programação recursiva em listas [:fa-book:](/conteudo/aulas/28programacaorecursivalistas.html) 
 ###### Recursividade em cauda [:fa-book:](/conteudo/aulas/29recursividadecauda.html)
 
