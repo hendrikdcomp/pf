@@ -135,7 +135,7 @@ export_on_save:
     ``` 
     [:fa-download:](../codigos/recursividade12.js)
 
-**PADRÃO 5: resolver problemas que envolvem duas listas.**
+**PADRÃO 5: verificar se a lista atende a uma determinada propriedade.**
 
 !!! note [EXEMPLO] Testar se uma string consiste num *palíndromo*.
 
