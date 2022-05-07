@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+        <script type="text/javascript" src="./utils.js"></script>
+        <script type="text/javascript" src="./recpadroes.js"></script>
+        <link rel="stylesheet" type="text/css" href="reclistas.css"/>
+    </head>
+<body>
+<h2>Interface para exercícios de recursividade em listas</h2>
+<hr>
+
+<h3>Entrada: <input id=input type="text">
+<br><br>
+<h3>Escolher operação:</h3>
+<hr>
+<input type="radio" id="soma" name="ops" value="soma">
+<label for="soma">somar valores</label><br>
+<hr>
+<input type="radio" id="ultimo" name="ops" value="ultimo">
+<label for="ultimo">último valor</label><br>
+<input type="radio" id="maior" name="ops" value="maior">
+<label for="maior">maior valor</label><br>
+<hr>
+<input type="radio" id="inverter" name="ops" value="inverter">
+<label for="inverter">inverter lista</label><br>
+<input type="radio" id="duplicar" name="ops" value="duplicar">
+<label for="duplicar">duplicar valores da lista</label><br>
+<hr>
+<input type="radio" id="elemento" name="ops" value="elemento">
+<label for="elemento">contém elemento?</label>
+<input id=input2 type="text">
+<hr>
+<input type="radio" id="palindromo" name="ops" value="palindromo">
+<label for="palindromo">é palíndromo?</label><br>
+<hr>
+
+<button onclick="exec()">executa</button>
+<p>Saída: <span id="output"></span></p></h3>
+
+<script>
+const exec = () => {
+    const texto = document.getElementById("input").value
+    const lista = texto.split(',')
+    const radios = Array.from(document.getElementsByName("ops"))
+    const checked = radios.filter((r)=>r.checked===true)
+    const op = checked[0].value
+    switch (op) {
+        case 'soma': document.getElementById("output").innerHTML = recsoma(lista); break;
+        case 'ultimo': document.getElementById("output").innerHTML = recultimo(lista); break;
+        case 'maior': document.getElementById("output").innerHTML = recmaior(lista); break;
+        case 'inverter': document.getElementById("output").innerHTML = recinverte(lista); break;
+        case 'duplicar': document.getElementById("output").innerHTML = recduplica(lista); break;
+        case 'elemento': {
+            const elem = document.getElementById("input2").value
+            document.getElementById("output").innerHTML = recelem(elem,lista); break;
+        }
+        case 'palindromo': document.getElementById("output").innerHTML = recpalindromo(lista.join()); break;
+        default: document.getElementById("output").innerHTML = 'Nenhuma operação selecionada.'
+    }
+}
+</script>
+
+<hr>
+
+</body>
+</html>

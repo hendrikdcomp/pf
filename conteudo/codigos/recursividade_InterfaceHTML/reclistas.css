@@ -1,0 +1,18 @@
+body {
+    color: black;
+    background-color: rgb(59, 162, 3) }
+h1 {
+    color: rgb(94, 239, 138); 
+    font-family:Arial, Helvetica, sans-serif
+}
+h2 {
+    color: rgb(129, 230, 116); 
+    font-family:Arial, Helvetica, sans-serif
+}
+h3 {
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif
+}
+#output {
+    color: rgb(255, 255, 255);
+}

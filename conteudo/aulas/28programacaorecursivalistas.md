@@ -156,3 +156,11 @@ export_on_save:
     } 
     ```
     [:fa-download:](../codigos/recursividade14.js)
+
+**INTERFACE HTML/CSS para os exemplos**
+
+<!-- ![](/assets/figs/recHTML.png) -->
+
+@import "/assets/figs/recHTML.png"{width=70%}
+
+[:fa-download:](../codigos/recursividade_InterfaceHTML.zip)
