@@ -55,7 +55,7 @@ export_on_save:
 #### Módulo 4 - Recursividade
 ###### Formulação da recursividade [:fa-book:](/conteudo/aulas/26recursividadeformulacao.html)
 ###### Programação recursividade [:fa-book:](/conteudo/aulas/27programacaorecursiva.html) [:fa-tv:](https://youtu.be/-lvb4a9XlBQ) [:fa-tv:](https://youtu.be/hLjzT8-JTwA) [:fa-tv:](https://youtu.be/dSk5EwLsTO8) [:fa-tv:](https://youtu.be/Da7SglEH2sk) [:fa-tv:](https://youtu.be/gRU45SzvVj4)
-###### Programação recursiva em listas [:fa-book:](/conteudo/aulas/28programacaorecursivalistas.html) 
+###### Programação recursiva em listas [:fa-book:](/conteudo/aulas/28programacaorecursivalistas.html) [:fa-tv:](https://youtu.be/WkZwwO4QuYY) [:fa-tv:](https://youtu.be/PsHE_03uMXw) [:fa-tv:](https://youtu.be/lYevaQLxNmk) [:fa-tv:](https://youtu.be/8Wv-E2F4J48) [:fa-tv:](https://youtu.be/zeNeAmtf2Rk) [:fa-tv:](https://youtu.be/XNh0ZetDIyI)
 ###### Recursividade em cauda [:fa-book:](/conteudo/aulas/29recursividadecauda.html)
 
 #### Apêndice - Entrada de dados
