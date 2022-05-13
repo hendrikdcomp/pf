@@ -79,8 +79,6 @@ export_on_save:
 ###### Estudo de Caso - Frequência de palavras [:fa-eye:](/conteudo/estudocaso/ec_frequencia.html)
 ###### Estudo de Caso - Matemática financeira [:fa-eye:](/conteudo/estudocaso/ec_financeira.html)
 ###### Estudo de Caso - Calculadora [:fa-eye:](/conteudo/estudocaso/ec_calculadora.html)
-###### Estudo de Caso - *Jogo ser definido*
-###### Estudo de Caso - *Jogo ser definido* 
 
 ---
 
