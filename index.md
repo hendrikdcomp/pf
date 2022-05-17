@@ -64,6 +64,9 @@ export_on_save:
 ###### Entrada síncrona via prompt NodeJS [:fa-book:](/conteudo/aulas/32apendicepromptnodejs.html)
 ###### Interface com HTML [:fa-book:](/conteudo/aulas/33apendiceentradahtml.html)  [:fa-tv:](https://youtu.be/bUfIfx9ySzI)
 
+#### Apêndice - Casos de Teste
+###### Testando funções através de casos de teste [:fa-book:](/conteudo/aulas/34apendicecasosdeteste.html)
+
 ---
 ## Exercícios
 ###### Lista 01 [:fa-pencil:](/conteudo/exercicios/lista01.html)
@@ -73,7 +76,9 @@ export_on_save:
 ###### Lista 05 [:fa-pencil:](/conteudo/exercicios/lista05.html)
 ###### Lista 06 [:fa-pencil:](/conteudo/exercicios/lista06.html)
 ###### Lista 07 [:fa-pencil:](/conteudo/exercicios/lista07.html)
-###### Apêndice - Lista 08 [:fa-pencil:](/conteudo/exercicios/lista08.html)
+###### Lista 08 [:fa-pencil:](/conteudo/exercicios/lista08.html)
+###### Apêndice - Lista 09 [:fa-pencil:](/conteudo/exercicios/lista09.html)
+
 ---
 ## Estudos de caso
 ###### Estudo de Caso - Frequência de palavras [:fa-eye:](/conteudo/estudocaso/ec_frequencia.html)

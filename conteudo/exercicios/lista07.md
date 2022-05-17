@@ -8,7 +8,7 @@ export_on_save:
     html: true
 ---
 
-# Lista 07
+# Lista 07 - Recursividade
 
 !!! note Q1. Resolver as questões da Lista 06 com recursividade em JS
 !!! note Q2. Pesquise sobre o algoritmo de ordenação QUICKSORT e o implemente; complemente o template de solução a seguir. 
