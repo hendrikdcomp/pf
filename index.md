@@ -28,13 +28,17 @@ export_on_save:
 ###### Por que "Funcional"? [:fa-book:](/conteudo/aulas/04porquefuncional.html) [:fa-tv:](https://youtu.be/5OAlfVrq1qE)
 ###### Programação Funcional [:fa-book:](/conteudo/aulas/05programacaofuncional.html) [:fa-tv:](https://youtu.be/Ccmh07GYsQs) 
 ###### Enriquecendo a solução [:fa-book:](/conteudo/aulas/06enriquecendoprograma.html) [:fa-tv:](https://youtu.be/l8ELcaEh4Mg)
+
+#### Módulo 2 - Valores e funções
 ###### Funções como expressões [:fa-book:](/conteudo/aulas/07funcoesexpressoes.html) [:fa-tv:](https://youtu.be/x72CpUk1mcg) 
 ###### Notação *arrow* [:fa-book:](/conteudo/aulas/08notacaoarrow.html) [:fa-tv:](https://youtu.be/2PTkYMLuFOY)[:fa-tv:](https://youtu.be/oEd3Zp5dvx4)[:fa-tv:](https://youtu.be/FL_wLGXjj50)
 ###### Definição de função como retorno [:fa-book:](/conteudo/aulas/09funcaocomoretorno.html) [:fa-tv:](https://youtu.be/N0vjAngeuJM)[:fa-tv:](https://youtu.be/p0GLTnDz7T8)  
 ###### Definição de função como argumento [:fa-book:](/conteudo/aulas/10funcaocomoargumento.html) [:fa-tv:](https://youtu.be/QIJXZTTIxQg) 
 ###### Função *anônima* [:fa-book:](/conteudo/aulas/11funcaoanonima.html) [:fa-tv:](https://youtu.be/yoYOomI51N4)[:fa-tv:](https://youtu.be/v_Ecdlqani8)[:fa-tv:](https://youtu.be/qkGi6Boa0bg)
+###### Formulação da recursividade [:fa-book:](/conteudo/aulas/26recursividadeformulacao.html)
+###### Programação recursiva [:fa-book:](/conteudo/aulas/27programacaorecursiva.html) [:fa-tv:](https://youtu.be/-lvb4a9XlBQ) [:fa-tv:](https://youtu.be/hLjzT8-JTwA) [:fa-tv:](https://youtu.be/dSk5EwLsTO8) [:fa-tv:](https://youtu.be/Da7SglEH2sk) [:fa-tv:](https://youtu.be/gRU45SzvVj4)
 
-#### Módulo 2 - Coleções de dados
+#### Módulo 3 - Coleções de dados
 ###### Coleções de dados: Listas e Registros [:fa-book:](/conteudo/aulas/12colecoes.html) [:fa-tv:](https://youtu.be/nfiJpiOGElA)
 ###### O problema das compras [:fa-book:](/conteudo/aulas/13colecoes_compras.html) [:fa-tv:](https://youtu.be/V8NTzGHIZYA)
 ###### Mapeamento de elementos [:fa-book:](/conteudo/aulas/14mapeamento.html) [:fa-tv:](https://youtu.be/w5I1HLLQ5yI) [:fa-tv:](https://youtu.be/IzBosJgniWc) [:fa-tv:](https://youtu.be/LJ5OY9ky6kw) [:fa-tv:](https://youtu.be/JinulM8LOxI)
@@ -43,7 +47,7 @@ export_on_save:
 ###### Composição de funções [:fa-book:](/conteudo/aulas/17composicao.html) [:fa-tv:](https://youtu.be/VYz9aszr5jc)
 ###### Manipulação de dados em arquivo [:fa-book:](/conteudo/aulas/18arquivos.html) [:fa-tv:](https://youtu.be/THPdtPbM11o) [:fa-tv:](https://youtu.be/_cMkkER7b50)
 
-#### Módulo 3 - Princípios do paradigma 
+#### Módulo 4 - Princípios do paradigma
 ###### Pureza [:fa-book:](/conteudo/aulas/19principiospureza.html) [:fa-tv:](https://youtu.be/29AdYufpn90) [:fa-tv:](https://youtu.be/i_23DNjhWbw)
 ###### Funções de Alta Ordem [:fa-book:](/conteudo/aulas/20principiosaltaordem.html) [:fa-tv:](https://youtu.be/kwccTc4XTMA)
 ###### Cidadãs de Primeira Classe [:fa-book:](/conteudo/aulas/21principiosprimeiraclasse.html) [:fa-tv:](https://youtu.be/pgbcJuLOhpw)
@@ -52,9 +56,8 @@ export_on_save:
 ###### *Currying* [:fa-book:](/conteudo/aulas/24principioscurrying.html) [:fa-tv:](https://youtu.be/QoaY_1RLcis) [:fa-tv:](https://youtu.be/BkgIpXj3U70)
 ###### Avaliação tardia [:fa-book:](/conteudo/aulas/25principiosavaltardia.html)
 
-#### Módulo 4 - Recursividade
-###### Formulação da recursividade [:fa-book:](/conteudo/aulas/26recursividadeformulacao.html)
-###### Programação recursividade [:fa-book:](/conteudo/aulas/27programacaorecursiva.html) [:fa-tv:](https://youtu.be/-lvb4a9XlBQ) [:fa-tv:](https://youtu.be/hLjzT8-JTwA) [:fa-tv:](https://youtu.be/dSk5EwLsTO8) [:fa-tv:](https://youtu.be/Da7SglEH2sk) [:fa-tv:](https://youtu.be/gRU45SzvVj4)
+#### Módulo 5 - Recursividade em lista
+###### Formulação da recursividade em lista [:fa-book:](/conteudo/aulas/26recursividadeformulacao.html)
 ###### Programação recursiva em listas [:fa-book:](/conteudo/aulas/28programacaorecursivalistas.html) [:fa-tv:](https://youtu.be/WkZwwO4QuYY) [:fa-tv:](https://youtu.be/PsHE_03uMXw) [:fa-tv:](https://youtu.be/lYevaQLxNmk) [:fa-tv:](https://youtu.be/8Wv-E2F4J48) [:fa-tv:](https://youtu.be/zeNeAmtf2Rk) [:fa-tv:](https://youtu.be/XNh0ZetDIyI)
 ###### Recursividade em cauda [:fa-book:](/conteudo/aulas/29recursividadecauda.html)
 
@@ -84,6 +87,7 @@ export_on_save:
 ###### Estudo de Caso - Frequência de palavras [:fa-eye:](/conteudo/estudocaso/ec_frequencia.html)
 ###### Estudo de Caso - Matemática financeira [:fa-eye:](/conteudo/estudocaso/ec_financeira.html)
 ###### Estudo de Caso - Calculadora [:fa-eye:](/conteudo/estudocaso/ec_calculadora.html)
+###### Estudo de Caso - Jogo *Snake* [:fa-eye:](/conteudo/estudocaso/ec_snake.html)
 
 ---
 
