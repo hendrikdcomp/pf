@@ -14,11 +14,16 @@ export_on_save:
     1. Operações aritméticas
     `(-2.11 / ((5.3 + 4.11) * 3)) ** 2`
     2. Criação de constantes
-    `a = 5` | `b = 3` | `2 * (a + b)`
+    `a = 5`
+    `b = 3`
+    `2 * (a + b)`
     3. Expressões condicionais
     `if ( a >= 5.0 ) { "aprovado" } else { "reprovado" }`
     4. Manipulação de texto
-    `nome = 'Fulano'` | `sobrenome = 'Santos'` | `nome + ' ' + sobrenome` |  `nome[0] + sobrenome[0]`
+    `nome = 'Fulano'`
+    `sobrenome = 'Santos'`
+    `nome + ' ' + sobrenome`
+    `nome[0] + sobrenome[0]`
 
 !!! Q2. Q2. Experimente elaborar novos exemplos de cada grupamento acima e teste-os no mesmo tipo de console
 

@@ -70,7 +70,7 @@ export_on_save:
 #### Apêndice - Casos de Teste
 ###### Testando funções através de casos de teste [:fa-book:](/conteudo/aulas/34apendicecasosdeteste.html)
 
----
+--- 
 ## Exercícios
 ###### Lista 01 [:fa-pencil:](/conteudo/exercicios/lista01.html)
 ###### Lista 02 [:fa-pencil:](/conteudo/exercicios/lista02.html)
@@ -79,8 +79,6 @@ export_on_save:
 ###### Lista 05 [:fa-pencil:](/conteudo/exercicios/lista05.html)
 ###### Lista 06 [:fa-pencil:](/conteudo/exercicios/lista06.html)
 ###### Lista 07 [:fa-pencil:](/conteudo/exercicios/lista07.html)
-###### Lista 08 [:fa-pencil:](/conteudo/exercicios/lista08.html)
-###### Apêndice - Lista 09 [:fa-pencil:](/conteudo/exercicios/lista09.html)
 
 ---
 ## Estudos de caso

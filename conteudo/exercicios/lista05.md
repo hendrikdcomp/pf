@@ -10,140 +10,24 @@ export_on_save:
 
 # Lista 05
 
-!!! note Q1. Sobre o programa a seguir, assinale a alternativa correta.
+:warning: Existem funções implementadas no arquivo (módulo) `utils.js` que podem ser bastante úteis para a solução de alguns dos problemas (ou partes deles).
 
-    ```js
-    const e = 2.718281828
-    const f = (x=2) => e**x
-    console.log(`f: ${f()}`)
-    ```
-    **a. Função `f` é impura e a aplicação da função está correta.
-    b. Função `f` é pura e a aplicação da função está correta.
-    c. Função `f` é impura mas a aplicação da função está incorreta.
-    d. Função `f` é pura mas a aplicação da função está incorreta.**
+!!! note Q1. Reconsidere o exemplo sobre as compras de produtos apresentado na aula sobre *registros*. Seu programa deve ser capaz de: (a) Mostrar o carrinho de compras com o preço dos produtos em outra moeda, aplicando-se alguma taxa de câmbio (ex. 5.5 vezes), (b) Calcular o valor total gasto com a compra, (c) Calcular o valor total gasto aplicando-se algum desconto, (d) Calcular o valor total gasto com os produtos frágeis, (e) Calcular o valor total gasto com produtos que se iniciam com uma determinada letra (ex. letra 'C'), (f) Calcular o valor médio gasto por tipo de produto com a compra realizada. Para resolver adequadamente os problemas descritos, seu programa deve fazer uso da notação mais compacta de representação e acesso a dados vista neste tópico e utilizar as três operações sobre coleções de dados estudadas: `map`, `filter` e `reduce`.
 
-!!! note Q2. Sobre o programa a seguir, assinale a alternativa correta.
+!!! note Q2. Programa para encontrar o último elemento de uma lista passada. [dica: considere o uso da função pré-definida `indexOf(...)`]. Ex: `['Ana','Bia','Marcela','Carlos','Maria']` $\to$ `'Maria'`. Faça também para encontrar o penúltimo.
 
-    ```js
-    const a = Math.random()
-    const g = (num, min, max) => {
-        const fator = max - min + 1
-        return parseInt(num * fator) + min
-    }
-    console.log(`g: ${g(a,1,10)}`)
-    ```
-    **a. Função `g` é impura porque em sua aplicação, usa-se um valor aleatório como argumento.
-    b. Função `g` é impura mas é estável.
-    c. Função `g` é impura mas se `const a = Math.Random()` fosse definido dentro da mesma, ela passaria a ser pura.
-    d. Função `g` é pura.**
+!!! note Q3. Programa retornar o número de elementos numa lista. Ex: `[3,5,-1,4,0]` $\to$ `5`
 
-!!! note Q3. Uma equação de segundo grau genérica se dá por $ax^2 + bx + c$. Observe agora o programa a seguir, que pretende representá-la e viabilizar aplicações a argumentos variados. Assinale a alternativa correta.
+!!! note Q4. Programa para contar quantos elementos presentes numa primeira lista estão presentes numa segunda. Dica: o _index_ de um elemento inexistente é `-1`. Ex: `['Ana','Bia','Marcela','Carlos','Maria']` e `['Bia','João, 'Marcela','Carlos','Camila']` $\to$ `3`
 
-    ```js
-    const h = (a,b,c) => (x) => a*(x**2) + b*x + c
-    console.log(`h: ${h(-1,2,10)}`)
-    ```
-    **a. Função `h` representa incorretamente a equação.
-    b. Função `h` representa corretamente a equação mas sua aplicação está equivocada.
-    c. Função `h` ilustra o que é ser uma Cidadã de Primeira Classe e sua aplicação gera um outro valor.
-    d. Função `h` ilustra o que é ser uma Cidadã de Primeira Classe mas sua aplicação está equivocada.**
+!!! note Q5. Programa para somar todos os múltiplos de 3 e os múltiplos de 5, que são menores que 1000
 
-!!! note Q4. Observe o programa a seguir e assinale a alternativa correta.
+!!! note Q6. Programa para retornar a diferença entre o quadrado da soma dos 10 primeiros números naturais e a soma dos quadrados dos primeiros 10 números naturais. Ou seja, $(1+2+3+...+10)^2 - (1^2 + 2^2 + 3^2 + ... + 10^2)$ 
 
-    ```js
-    const a1 = [1,2,3]
-    const a2 = a1
-    a2[0] = -1; a2[1] = -2; a2[2] = -3
-    console.log(`a1: ${a1}`)
-    console.log(`a2: ${a2}`)
-    ```
-    **a. Será impresso `a1: 1,2,3` e `a2: -1,-2,-3`  porque `const` garante imutabilidade dos elementos das listas.
-    b. Será impresso `a1: -1,-2,-3` e `a2: -1,-2,-3` porque, para listas, `const`, `let` e `var` funcionam da mesma forma.
-    c. As listas são mutáveis mas seus elementos, não.
-    d. Os elementos da lista a1 são mutáveis, mas a lista `a1` é imutável e não seria possível fazer `a1 = [-1,-2,-3]` logo depois da primeira linha do código.**
+!!! note Q7. Programa para retornar a lista de todos os números primos menores que um número natural $n$ qualquer
 
-!!! note Q5. Observe o programa a seguir e assinale a alternativa correta.
+!!! note Q8. Programa para retornar os $n$ primeiros algarismos de um número inteiro qualquer 
 
-    ```js
-    const a1 = [1,2,3]
-    const a2 = a1.map((x)=>x*(-1))
-    console.log(`a1: ${a1}`)
-    console.log(`a2: ${a2}`)
-    ```
-    **a. Será impresso `a1: 1,2,3` e `a2: -1,-2,-3`  porque `map` garante imutabilidade dos elementos das listas.
-    b. Será impresso `a1: 1,2,3` e `a2: 1,2,3` porque `const` impediria o efeito da ação do `map`.
-    c. Será impresso `a1: 1,2,3` e `a2: -1,-2,-3` porque `map` cria uma nova lista.
-    d. O programa possui comportamento igual ao da questão 4.**
+!!! note Q9. Programa para retornar o número total de letras usadas na escrita por extenso em inglês dos números cardinais presentes numa sequência de valor máximo 1000 ('one thousand'). Exemplo: 225 ---> 'two hundred twenty five' ---> 20
 
-!!! note Q6. Observe o programa a seguir e assinale a alternativa correta.
-
-    ```js
-    const func = () => {
-        const nome = 'Cicrana'
-        const exibeNome = () => console.log(nome)
-        return exibeNome;
-    }
-    const minhaFunc = func()
-    const nome = 'Belrana'
-    minhaFunc()
-    ```
-    **a. O programa exibirá `Cicrana` como resultado graças ao princípio do Currying
-    b. O programa exibirá `Cicrana` como resultado graças ao princípio do Closure
-    c. O programa exibirá `Beltrana` como resultado graças ao princípio do Currying
-    d. O programa exibirá `Beltrana` como resultado graças ao princípio do Closure**
-
-!!! note Q7. Observe o programa a seguir e assinale a alternativa correta.
-
-    ```js
-    const exec = (fn) => (...params) => fn(...params)
-    const soma = (x,y,z) => x+y+z
-    const multi = (x,y) => x*y
-    console.log(`Resultado: ${exec(soma)(1,2,3)}`)
-    console.log(`Resultado: ${exec(multi)(3,5)}`)
-    ```
-    **a. Uma função `dobro` poderia ser criada facilmente a partir de uma versão currificada de `multi`.
-    b. O programa está correto, mas as versões não currificadas das funções `soma` e `multi` melhorariam o reuso.
-    c. O programa está incorreto, mas versões currificadas de `soma` e `multi` o tornariam correto.
-    d. A possibilidade de se definir `const dobro = multi(2)` demonstra o poder da aplicação parcial neste programa.**
-
-!!! note Q8. Observe o programa abaixo. A função `decrementa` atinge seu objetivo corretamente; entretanto, o programa fere o princípio da Imutabilidade, o que causa problemas com a lista original. Como você corrigiria a inconsistência realizando alterações APENAS nas linhas 1 e 3 do programa?
-
-    ```js {.line-numbers}
-    const l1 = [3, 1, 7]
-    const decrementa = (lista) => {
-        const l2 = lista
-        l2[0]--; l2[1]--; l2[2]--;
-        return l2
-    }
-    console.log(decrementa(l1))
-    console.log(l1)
-    ```
----
-**RESPOSTAS** - posicione o cursor do mouse em cima do indicador da questão para ver a letra correta.
-
-*[Q1?]: Letra 'a'
-*[Q2?]: Letra 'd'
-*[Q3?]: Letra 'c'
-*[Q4?]: Letra 'd'
-*[Q5?]: Letra 'c'
-*[Q6?]: Letra 'b'
-*[Q7?]: Letra 'a'
-
-**Q1?
-Q2? 
-Q3? 
-Q4? 
-Q5? 
-Q6? 
-Q7?
-Q8?** 
-```js {.line-numbers, highlight=[1,3]}
-const l1 = Object.freeze([3, 1, 7])
-const decrementa = (lista) => {
-    const l2 = [...lista]
-    l2[0]--; l2[1]--; l2[2]--;
-    return l2
-}
-console.log(decrementa(l1))
-console.log(l1)
-```
+!!! note Q10. Programa para replicar os elementos de uma lista um determinado número de vezes. Exemplo: replica [1,2,3] 4 vezes ---> [1,1,1,1,2,2,2,2,3,3,3,3]

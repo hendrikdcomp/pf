@@ -8,9 +8,9 @@ export_on_save:
     html: true
 ---
 
-# Lista 02 
+# Lista 02  
 
-_OBS: em todos os casos, uma vez resolvido o problema original, procure enriquecer seu programa com algumas das ideias ilustradas anteriormente._ 
+_OBS: em todos os casos, uma vez resolvido o problema original, procure enriquecer seu programa com algumas das ideias ilustradas no material de aula._ 
 
 !!! note Q1. Programa para calcular a área de um retângulo dados os comprimentos de duas arestas
     Já resolvido no material de aula.
@@ -37,27 +37,6 @@ _OBS: em todos os casos, uma vez resolvido o problema original, procure enriquec
     $a$, $b$, $c$ são pré-definidos ou fornecidos pelo usuário 
     $fquantosIguais(x, y, z) =$ Se $x=y=z$ então retorne $3$, senão, Se $x\neq y \neq z$ então retorne 0, caso contrário, retorne $2$.   
 
-    [Programa]
-    ```js {.line-numbers}
-    function fquantosIguais(x, y, z) { 
-        if (x==y && y==z)
-            return 3
-        else if (x!=y && y!= z && x!= z)
-                return 0
-            else 
-                return 2
-    }
-
-    const a = 6
-    const b = 5 
-    const c = 4
-
-    const resultado = fquantosIguais(a,b,c)  
-
-    console.log(resultado)
-    ```
-    [:fa-download:](../codigos/funcexerc26.js)
-
 !!! note Q7. Programa para retornar o menor valor entre três números quaisquer. Tente resolver considerando o sub-problema de determinar o menor valor entre dois números quaisquer (obs: em caso de valores iguais, deve-se retornar como resultado o próprio valor).
 
 !!! note Q8. Escrever um programa que calcule o valor de um número elevado à quarta potência. Tente fazer uso do sub-problema de calcular o quadrado de um número qualquer.
@@ -72,6 +51,4 @@ _OBS: em todos os casos, uma vez resolvido o problema original, procure enriquec
 
 !!! note Q13. Um móvel com velocidade constante percorre uma trajetória retilínea. Considere ${t_0 = 0}$, o instante inicial e ${x_0 = 500}$ a posição inicial. Escreva um programa para calcular a velocidade do objeto em um dado instante _t_ e posição _x_.
 
-!!! note Q14. Aproveitando-se do programa do cálculo da velocidade do problema anterior, escreva um programa para calcular a posição do objeto em um dado instante _t_.
-
-!!! note Q15. Programa que escreva por extenso um determinado algarismo passado como argumento.
+!!! note Q14. Programa que escreva por extenso um determinado algarismo passado como argumento.

@@ -518,13 +518,30 @@ pre[data-line] .line-highlight[data-end]:after {
     </head>
     <body for="html-export">
       <div class="mume markdown-preview  ">
-      <h1 class="mume-header" id="lista-07-recursividade">Lista 07 - Recursividade</h1>
+      <h1 class="mume-header" id="lista-07-recursividade-em-listas">Lista 07 - Recursividade em listas</h1>
 
+<p>Para cada um dos problemas a seguir, <strong>encontre uma f&#xF3;rmula recursiva</strong> apropriada, que contemple <strong><em>caso base</em></strong> e <strong><em>passo indutivo</em></strong>. A seguir, implemente sua formula&#xE7;&#xE3;o recursiva na linguagem Javascript.</p>
+<p>&#x26A0;&#xFE0F; caso deseje, voc&#xEA; pode optar pelo uso das representa&#xE7;&#xF5;es <code>Array.prototype</code> e <code>String.prototype</code> na defini&#xE7;&#xE3;o de fun&#xE7;&#xF5;es para uso em listas e strings, respectivamente. Essa representa&#xE7;&#xE3;o permite que a fun&#xE7;&#xE3;o criada seja utilizada <strong>a partir da</strong> lista (ou string) de interesse, tornando desnecess&#xE1;rio passar essa lista (ou string) como argumento da fun&#xE7;&#xE3;o no momento de seu uso. Obs: nesse caso, n&#xE3;o &#xE9; poss&#xED;vel utilizar a representa&#xE7;&#xE3;o de <em>fun&#xE7;&#xF5;es como express&#xF5;es</em>.</p>
 <div class="admonition note">
-<p class="admonition-title">Q1. Resolver as quest&#xF5;es da Lista 06 com recursividade em JS</p>
+<p class="admonition-title">Q1. Criar uma fun&#xE7;&#xE3;o recursiva chamada <code>busca</code> que busca o &#xED;ndice de um determinado item em uma lista ORDENADA. Se o item estiver presente, ele deve retornar o &#xED;ndice, caso contr&#xE1;rio, deve retornar -1.</p>
 </div>
 <div class="admonition note">
-<p class="admonition-title">Q2. Pesquise sobre o algoritmo de ordena&#xE7;&#xE3;o QUICKSORT e o implemente; complemente o template de solu&#xE7;&#xE3;o a seguir.</p>
+<p class="admonition-title">Q2. Criar uma fun&#xE7;&#xE3;o que encontre o <code>maior</code> valor numa lista de inteiros usando a recursividade. Considere que a lista possui pelo menos um elemento.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Q3. Criar uma fun&#xE7;&#xE3;o chamada <code>somaAninhado</code> que pega uma lista e devolve a soma de todos os itens. Aten&#xE7;&#xE3;o: o item de uma lista pode ser outra lista.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Q4. Fun&#xE7;&#xE3;o para retornar o n&#xFA;mero de <code>vogais</code> numa string. Considere que todas as letras est&#xE3;o min&#xFA;sculas.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Q5. Criar uma fun&#xE7;&#xE3;o que transforma frases terminadas com m&#xFA;ltiplos pontos de interroga&#xE7;&#xE3;o ? ou pontos de exclama&#xE7;&#xE3;o ! numa frase que termina apenas com um, sem alterar a pontua&#xE7;&#xE3;o no meio das frases.  Ex: <code>eliminaIntExc(&quot;O que &#xE9; isso?????&quot;) ---&gt; &quot;O que &#xE9; isso?&quot;</code></p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Q6. Considere o problema de gerar o montante acumulado de casos de uma doen&#xE7;a qualquer. Como entrada, existe uma sequ&#xEA;ncia de valores onde cada termo representa o n&#xFA;mero de casos daquele dia. Ex: para a sequ&#xEA;ncia <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>7</mn><mo separator="true">,</mo><mn>3</mn><mo separator="true">,</mo><mn>19</mn><mo separator="true">,</mo><mn>5</mn><mo separator="true">,</mo><mn>15</mn><mo separator="true">,</mo><mn>10</mn></mrow><annotation encoding="application/x-tex">{7,3,19,5,15,10}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8389em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord">7</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">3</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">19</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">5</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">15</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">10</span></span></span></span></span> seria gerada a sequ&#xEA;ncia <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>7</mn><mo separator="true">,</mo><mn>10</mn><mo separator="true">,</mo><mn>29</mn><mo separator="true">,</mo><mn>34</mn><mo separator="true">,</mo><mn>49</mn><mo separator="true">,</mo><mn>59</mn></mrow><annotation encoding="application/x-tex">{7,10,29,34,49,59}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8389em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord">7</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">10</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">29</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">34</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">49</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">59</span></span></span></span></span>.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Q7. Pesquise sobre o algoritmo de ordena&#xE7;&#xE3;o QUICKSORT e o implemente; complemente o template de solu&#xE7;&#xE3;o a seguir.</p>
 <p><em>Formula&#xE7;&#xE3;o recursiva</em><br>
 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>q</mi><mi>s</mi><mi>o</mi><mi>r</mi><mi>t</mi><mo stretchy="false">(</mo><mo stretchy="false">{</mo><mo stretchy="false">}</mo><mo stretchy="false">)</mo><mo>=</mo><mo stretchy="false">{</mo><mo stretchy="false">}</mo><mspace linebreak="newline"></mspace><mi>q</mi><mi>s</mi><mi>o</mi><mi>r</mi><mi>t</mi><mo stretchy="false">(</mo><mo stretchy="false">{</mo><msub><mi>a</mi><mn>1</mn></msub><mi mathvariant="normal">.</mi><mi mathvariant="normal">.</mi><mi mathvariant="normal">.</mi><msub><mi>a</mi><mi>n</mi></msub><mo stretchy="false">}</mo><mo stretchy="false">)</mo><mo>=</mo><mo stretchy="false">?</mo><mo stretchy="false">?</mo><mo stretchy="false">?</mo></mrow><annotation encoding="application/x-tex">qsort(\{\}) = \{\}\\
 qsort(\{a_1...a_n\}) = ???</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span><span class="mord mathnormal" style="margin-right:0.02778em;">sor</span><span class="mord mathnormal">t</span><span class="mopen">({</span><span class="mclose">})</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">{</span><span class="mclose">}</span></span><span class="mspace newline"></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">q</span><span class="mord mathnormal" style="margin-right:0.02778em;">sor</span><span class="mord mathnormal">t</span><span class="mopen">({</span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3011em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">1</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mord">...</span><span class="mord"><span class="mord mathnormal">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.1514em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span></span><span class="vlist-s">&#x200B;</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">})</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mclose">???</span></span></span></span></p>
@@ -539,19 +556,34 @@ qsort(\{a_1...a_n\}) = ???</annotation></semantics></math></span><span class="ka
 <span class="token punctuation">}</span>
 </pre></div>
 <div class="admonition note">
-<p class="admonition-title">Q3. Alterar a solu&#xE7;&#xE3;o do PAL&#xCD;NDROMO usada como exemplo para funcionar com listas de quaisquer tipo de elementos, n&#xE3;o apenas <em>string</em>, fazendo uso de <em>spread</em> ao inv&#xE9;s de <code>slice(...)</code>.</p>
+<p class="admonition-title">Q8. Escreva um programa para realizar uma <a href="https://pt.wikipedia.org/wiki/Pesquisa_bin%C3%A1ria">Busca Bin&#xE1;ria</a> em uma lista de elementos ordenados. Se o elemento existir, retorne sua posi&#xE7;&#xE3;o na lista; caso contr&#xE1;rio, retorne -1 (ou algum outro tipo de indicativo de inexist&#xEA;ncia). Exemplos: <code>[-4,0,3,7,11].buscabin(7) ---&gt; 3</code>; <code>[-4,0,3,7,11].buscabin(1) ---&gt; -1 (ou NaN)</code>.</p>
 </div>
 <div class="admonition note">
-<p class="admonition-title">Q4. Implementar sua pr&#xF3;pria fun&#xE7;&#xE3;o de alta ordem <code>map(...)</code>.</p>
+<p class="admonition-title">Q9. Fun&#xE7;&#xE3;o para eliminar de uma lista todas as ocorr&#xEA;ncias de um dado elemento. Exemplo: <code>[-4,0,3,7,11].elimina(7) ---&gt; [-4,0,3,11]</code>.</p>
 </div>
 <div class="admonition note">
-<p class="admonition-title">Q5. Implementar sua pr&#xF3;pria fun&#xE7;&#xE3;o de alta ordem <code>filter(...)</code>.</p>
+<p class="admonition-title">Q10. Defina uma fun&#xE7;&#xE3;o que, dada uma lista, retorne a (sub)lista contendo os elementos que ocorrem exatamente uma vez na lista original. Exemplos: <code>[4,2,1,3,2,3].unicos() ---&gt; [4,1]</code>; <code>[1,4,4,2,1,3,2,3].unicos() ---&gt; []</code></p>
 </div>
 <div class="admonition note">
-<p class="admonition-title">Q6. Implementar sua pr&#xF3;pria fun&#xE7;&#xE3;o de alta ordem <code>reduce(...)</code>.</p>
+<p class="admonition-title">Q11. Uma string &#xE9; uma substring de outra se os elementos da primeira ocorrem na segunda, na mesma ordem. Por exemplo, <code>&apos;ship&apos;</code> &#xE9; uma substring de <code>&apos;Fish &amp; Chips&apos;</code>, mas n&#xE3;o de <code>&apos;hippies&apos;</code>. Defina uma fun&#xE7;&#xE3;o que decida se uma string &#xE9; uma substring de outra.</p>
 </div>
 <div class="admonition note">
-<p class="admonition-title">Q7. Implemente a fun&#xE7;&#xE3;o Fatorial utilizando recursividade na cauda.</p>
+<p class="admonition-title">Q12. A propriedade <code>length</code> de uma lista retorna o n&#xFA;mero de elementos presentes na lista. Por exemplo, a lista <code>[1, [2, 3]]</code> possui 2 elementos: o n&#xFA;mero <code>1</code> e a lista <code>[2, 3]</code>. Suponha que ao inv&#xE9;s disso, queiramos saber o total de elementos n&#xE3;o aninhados na lista. No exemplo anterior, ent&#xE3;o, ter&#xED;amos 3 elementos: n&#xFA;meros <code>1</code>, <code>2</code> e <code>3</code>. Escreva uma fun&#xE7;&#xE3;o para realizar esta &#xFA;ltima contagem.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Q13. Crie uma fun&#xE7;&#xE3;o que pega um n&#xFA;mero e retorna um d&#xED;gito que &#xE9; o resultado da soma de todos os d&#xED;gitos do n&#xFA;mero de entrada. Quando a soma dos d&#xED;gitos resultar em mais de um d&#xED;gito, repita a soma at&#xE9; obter um &#xFA;nico d&#xED;gito. Exemplos: <code>digitosoma(123) &#x279E; 6</code>, <code>digitosoma(999888777) &#x279E; 72 &#x279E; 9</code>, <code>digitosoma(999999999998) &#x279E; 107 &#x279E; 8</code>.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Q14. Crie um programa para representar um joguinho de dados simples. O usu&#xE1;rio escolhe quantas vezes ele deseja jogar um par de dados. A pontua&#xE7;&#xE3;o ser&#xE1; a soma total de todos os lan&#xE7;amentos. Entretanto, se algum lan&#xE7;amento gerar um valor duplo, a pontua&#xE7;&#xE3;o total ser&#xE1; zerada. Represente o lan&#xE7;amento de cada par de dados como uma lista com dois elementos e o conjunto total de lan&#xE7;amentos seria ent&#xE3;o uma lista de listas. Exemplos: <code>pontuacao([[5, 2], [4, 3], [5, 6]]) &#x279E; 25</code>, <code>pontuacao([[5, 6], [1, 1], [6, 4], [6, 3]]) &#x279E; 0</code>.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Q15. Implementar sua pr&#xF3;pria fun&#xE7;&#xE3;o de alta ordem <code>map(...)</code>.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Q16. Implementar sua pr&#xF3;pria fun&#xE7;&#xE3;o de alta ordem <code>filter(...)</code>.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Q17. Implementar sua pr&#xF3;pria fun&#xE7;&#xE3;o de alta ordem <code>reduce(...)</code>.</p>
 </div>
 
       </div>
