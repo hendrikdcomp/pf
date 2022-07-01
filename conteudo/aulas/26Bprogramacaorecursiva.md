@@ -7,7 +7,7 @@ puppeteer:
 export_on_save:
     html: true
 ---
-<!-- 27 -->
+<!-- 26B -->
 
 # Programação recursiva
 
@@ -36,7 +36,7 @@ Agora, iremos ver como converter essa formulação recursiva para a implementaç
     ```
     [:fa-download:](../codigos/recursividade01.js)
 
-!!! note [EXEMPLO: Lista 06, Q2] N-ésimo termo da sequência $\{0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...\}$.
+!!! note [EXEMPLO: Lista 04, Q2] N-ésimo termo da sequência $\{0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, ...\}$.
 
     _Formulação recursiva_
     $fib(0) = 0\\
@@ -55,7 +55,7 @@ Agora, iremos ver como converter essa formulação recursiva para a implementaç
 
 **PADRÃO 2: implementar uma operação que é formada por uma repetição de operações mais primitivas.**
 
-!!! note [EXEMPLO: adaptação da Lista 06, Q6] Implementar o operador de exponenciação para permitir calcular a potência natural de um número $m$ qualquer: $m^n$.
+!!! note Implementar o operador de exponenciação para permitir calcular a potência natural de um número $m$ qualquer: $m^n$.
 
     _Formulação recursiva_
     $pot(m,0) = 1\\
@@ -69,7 +69,7 @@ Agora, iremos ver como converter essa formulação recursiva para a implementaç
     ```
     [:fa-download:](../codigos/recursividade04.js)
 
-!!! note [EXEMPLO: adaptação da Lista 06, Q6] Implementar o operador de exponenciação para permitir calcular a potência _inteira_ de um número $m$ qualquer: $m^n$.
+!!! note Implementar o operador de exponenciação para permitir calcular a potência _inteira_ de um número $m$ qualquer: $m^n$.
 
     _Uso de **função de interface**_
     ```js
@@ -85,7 +85,7 @@ Agora, iremos ver como converter essa formulação recursiva para a implementaç
     ```
     [:fa-download:](../codigos/recursividade05.js)
 
-!!! note [EXEMPLO: Lista 06, Q7] Implementar o operador de divisão a fim de encontrar o resto da divisão entre dois números inteiros positivos fornecidos, $n$ e $m$. 
+!!! note [EXEMPLO: Lista 04, Q7] Implementar o operador de divisão a fim de encontrar o resto da divisão entre dois números inteiros positivos fornecidos, $n$ e $m$. 
 
     _Formulação recursiva_
     $resto(n,m) = n, \forall n < m$
@@ -96,7 +96,7 @@ Agora, iremos ver como converter essa formulação recursiva para a implementaç
     ```
     [:fa-download:](../codigos/recursividade06.js)
 
-!!! note [EXEMPLO: Lista 06, Q10] Implementar o operador de divisão a fim de encontrar o Máximo Divisor Comum (MDC) entre dois inteiros fornecidos, $n$ e $m$.
+!!! note [EXEMPLO: Lista 04, Q8] Implementar o Máximo Divisor Comum (MDC) entre dois inteiros fornecidos, $n$ e $m$. Naturalmente, você não deve utilizar operadores de divisão da linguagem.
 
     _Formulação recursiva_
     $mdc(n,m) = m, \text{ se } n = 0$

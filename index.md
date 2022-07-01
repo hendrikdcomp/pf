@@ -36,7 +36,7 @@ export_on_save:
 ###### Definição de função como argumento [:fa-book:](/conteudo/aulas/10funcaocomoargumento.html) [:fa-tv:](https://youtu.be/QIJXZTTIxQg) 
 ###### Função *anônima* [:fa-book:](/conteudo/aulas/11funcaoanonima.html) [:fa-tv:](https://youtu.be/yoYOomI51N4)[:fa-tv:](https://youtu.be/v_Ecdlqani8)[:fa-tv:](https://youtu.be/qkGi6Boa0bg)
 ###### Formulação da recursividade [:fa-book:](/conteudo/aulas/26recursividadeformulacao.html)
-###### Programação recursiva [:fa-book:](/conteudo/aulas/27programacaorecursiva.html) [:fa-tv:](https://youtu.be/-lvb4a9XlBQ) [:fa-tv:](https://youtu.be/hLjzT8-JTwA) [:fa-tv:](https://youtu.be/dSk5EwLsTO8) [:fa-tv:](https://youtu.be/Da7SglEH2sk) [:fa-tv:](https://youtu.be/gRU45SzvVj4)
+###### Programação recursiva [:fa-book:](/conteudo/aulas/26Bprogramacaorecursiva.html) [:fa-tv:](https://youtu.be/-lvb4a9XlBQ) [:fa-tv:](https://youtu.be/hLjzT8-JTwA) [:fa-tv:](https://youtu.be/dSk5EwLsTO8) [:fa-tv:](https://youtu.be/Da7SglEH2sk) [:fa-tv:](https://youtu.be/gRU45SzvVj4)
 
 #### Módulo 3 - Coleções de dados
 ###### Coleções de dados: Listas e Registros [:fa-book:](/conteudo/aulas/12colecoes.html) [:fa-tv:](https://youtu.be/nfiJpiOGElA)
@@ -57,7 +57,7 @@ export_on_save:
 ###### Avaliação tardia [:fa-book:](/conteudo/aulas/25principiosavaltardia.html)
 
 #### Módulo 5 - Recursividade em lista
-###### Formulação da recursividade em lista [:fa-book:](/conteudo/aulas/26recursividadeformulacao.html)
+###### Formulação da recursividade em lista [:fa-book:](/conteudo/aulas/27recursividadeformulacaolista.html)
 ###### Programação recursiva em listas [:fa-book:](/conteudo/aulas/28programacaorecursivalistas.html) [:fa-tv:](https://youtu.be/WkZwwO4QuYY) [:fa-tv:](https://youtu.be/PsHE_03uMXw) [:fa-tv:](https://youtu.be/lYevaQLxNmk) [:fa-tv:](https://youtu.be/8Wv-E2F4J48) [:fa-tv:](https://youtu.be/zeNeAmtf2Rk) [:fa-tv:](https://youtu.be/XNh0ZetDIyI)
 ###### Recursividade em cauda [:fa-book:](/conteudo/aulas/29recursividadecauda.html)
 
