@@ -55,7 +55,7 @@ Agora, iremos ver como converter essa formulação recursiva para a implementaç
 
 **PADRÃO 2: implementar uma operação que é formada por uma repetição de operações mais primitivas.**
 
-!!! note Implementar o operador de exponenciação para permitir calcular a potência natural de um número $m$ qualquer: $m^n$.
+!!! note [EXEMPLO] Implementar o operador de exponenciação para permitir calcular a potência natural de um número $m$ qualquer: $m^n$.
 
     _Formulação recursiva_
     $pot(m,0) = 1\\
@@ -69,7 +69,7 @@ Agora, iremos ver como converter essa formulação recursiva para a implementaç
     ```
     [:fa-download:](../codigos/recursividade04.js)
 
-!!! note Implementar o operador de exponenciação para permitir calcular a potência _inteira_ de um número $m$ qualquer: $m^n$.
+!!! note [EXEMPLO] Implementar o operador de exponenciação para permitir calcular a potência _inteira_ de um número $m$ qualquer: $m^n$.
 
     _Uso de **função de interface**_
     ```js

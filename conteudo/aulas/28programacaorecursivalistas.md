@@ -13,7 +13,7 @@ export_on_save:
 
 **PADRÃO 1: realizar uma operação de redução numérica em uma lista de valores.**
 
-!!! note [EXEMPLO] Escreva um programa para calcular a soma dos valores de uma lista. Ex: $\{3, 8, 20, 21, 34, 44\}$.
+!!! note [EXEMPLO] Escreva um programa para calcular a soma dos valores de uma lista. Ex: $\{3, 8, 20, 21, 34, 44\}$. 
 
     _Formulação recursiva_
     $soma(\{\}) = 0\\
@@ -50,7 +50,7 @@ export_on_save:
 
 **PADRÃO 2: retornar o elemento de uma lista que atenda a um determinado critério.**
 
-!!! note [EXEMPLO: Lista 06, Q3] Encontrar o último elemento de uma lista qualquer passada.
+!!! note [EXEMPLO] Encontrar o último elemento de uma lista qualquer passada.
 
     _Formulação recursiva_
     $ultimo(\{\}) = vazia\\
