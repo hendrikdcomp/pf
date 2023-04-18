@@ -89,11 +89,11 @@ export_on_save:
 
 ---
 
-## Sobre o autor
+## Sobre o autor 
 
 @import "./assets/images/eu.jpg" {width=20% align=left hspace=5} 
 
-[Professor Associado IV (DCOMP/UFS)](https://www.sigaa.ufs.br/sigaa/public/docente/portal.jsf?siape=2527554)
+[Professor Titular (DCOMP/UFS)](https://www.sigaa.ufs.br/sigaa/public/docente/portal.jsf?siape=2527554)
 [Bolsista de Produtividade CNPq](http://lattes.cnpq.br/7119477874134821)
 
 
