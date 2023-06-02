@@ -22,52 +22,52 @@ export_on_save:
 ##### [:fa-list:](https://youtube.com/playlist?list=PLrX8_48jS7BcT4JdtUIHNKCuVEugPcz2d) Playlist das video-aulas 
 
 #### Módulo 1 - Fundamentos
-###### O que é programar? [:fa-book:](/conteudo/aulas/01oqueeprogramar.html) [:fa-tv:](https://youtu.be/OtznOZE6-ns)
-###### A linguagem Javascript [:fa-book:](/conteudo/aulas/02linguagemjavascript.html) [:fa-tv:](https://youtu.be/vzm3EJjfsmQ)
-###### Onde programar com Javascript [:fa-book:](/conteudo/aulas/03ondeprogramar.html) [:fa-tv:](https://youtu.be/b2NJFxu3DQY)
-###### Por que "Funcional"? [:fa-book:](/conteudo/aulas/04porquefuncional.html) [:fa-tv:](https://youtu.be/5OAlfVrq1qE)
-###### Programação Funcional [:fa-book:](/conteudo/aulas/05programacaofuncional.html) [:fa-tv:](https://youtu.be/Ccmh07GYsQs) 
-###### Enriquecendo a solução [:fa-book:](/conteudo/aulas/06enriquecendoprograma.html) [:fa-tv:](https://youtu.be/l8ELcaEh4Mg)
+###### 1.1 O que é programar? [:fa-book:](/conteudo/aulas/01oqueeprogramar.html) [:fa-tv:](https://youtu.be/OtznOZE6-ns)
+###### 1.2 A linguagem Javascript [:fa-book:](/conteudo/aulas/02linguagemjavascript.html) [:fa-tv:](https://youtu.be/vzm3EJjfsmQ)
+###### 1.3 Onde programar com Javascript [:fa-book:](/conteudo/aulas/03ondeprogramar.html) [:fa-tv:](https://youtu.be/b2NJFxu3DQY)
+###### 1.4 Por que "Funcional"? [:fa-book:](/conteudo/aulas/04porquefuncional.html) [:fa-tv:](https://youtu.be/5OAlfVrq1qE)
+###### 1.5 Programação Funcional [:fa-book:](/conteudo/aulas/05programacaofuncional.html) [:fa-tv:](https://youtu.be/Ccmh07GYsQs) 
+###### 1.6 Enriquecendo a solução [:fa-book:](/conteudo/aulas/06enriquecendoprograma.html) [:fa-tv:](https://youtu.be/l8ELcaEh4Mg)
 
 #### Módulo 2 - Valores e funções
-###### Funções como expressões [:fa-book:](/conteudo/aulas/07funcoesexpressoes.html) [:fa-tv:](https://youtu.be/x72CpUk1mcg) 
-###### Notação *arrow* [:fa-book:](/conteudo/aulas/08notacaoarrow.html) [:fa-tv:](https://youtu.be/2PTkYMLuFOY)[:fa-tv:](https://youtu.be/oEd3Zp5dvx4)[:fa-tv:](https://youtu.be/FL_wLGXjj50)
-###### Definição de função como retorno [:fa-book:](/conteudo/aulas/09funcaocomoretorno.html) [:fa-tv:](https://youtu.be/N0vjAngeuJM)[:fa-tv:](https://youtu.be/p0GLTnDz7T8)  
-###### Definição de função como argumento [:fa-book:](/conteudo/aulas/10funcaocomoargumento.html) [:fa-tv:](https://youtu.be/QIJXZTTIxQg) 
-###### Função *anônima* [:fa-book:](/conteudo/aulas/11funcaoanonima.html) [:fa-tv:](https://youtu.be/yoYOomI51N4)[:fa-tv:](https://youtu.be/v_Ecdlqani8)[:fa-tv:](https://youtu.be/qkGi6Boa0bg)
-###### Formulação da recursividade [:fa-book:](/conteudo/aulas/26recursividadeformulacao.html)
-###### Programação recursiva [:fa-book:](/conteudo/aulas/26Bprogramacaorecursiva.html) [:fa-tv:](https://youtu.be/-lvb4a9XlBQ) [:fa-tv:](https://youtu.be/hLjzT8-JTwA) [:fa-tv:](https://youtu.be/dSk5EwLsTO8) [:fa-tv:](https://youtu.be/Da7SglEH2sk) [:fa-tv:](https://youtu.be/gRU45SzvVj4)
+###### 2.1 Funções como expressões [:fa-book:](/conteudo/aulas/07funcoesexpressoes.html) [:fa-tv:](https://youtu.be/x72CpUk1mcg) 
+###### 2.2 Notação *arrow* [:fa-book:](/conteudo/aulas/08notacaoarrow.html) [:fa-tv:](https://youtu.be/2PTkYMLuFOY)[:fa-tv:](https://youtu.be/oEd3Zp5dvx4)[:fa-tv:](https://youtu.be/FL_wLGXjj50)
+###### 2.3 Definição de função como retorno [:fa-book:](/conteudo/aulas/09funcaocomoretorno.html) [:fa-tv:](https://youtu.be/N0vjAngeuJM)[:fa-tv:](https://youtu.be/p0GLTnDz7T8)  
+###### 2.4 Definição de função como argumento [:fa-book:](/conteudo/aulas/10funcaocomoargumento.html) [:fa-tv:](https://youtu.be/QIJXZTTIxQg) 
+###### 2.5 Função *anônima* [:fa-book:](/conteudo/aulas/11funcaoanonima.html) [:fa-tv:](https://youtu.be/yoYOomI51N4)[:fa-tv:](https://youtu.be/v_Ecdlqani8)[:fa-tv:](https://youtu.be/qkGi6Boa0bg)
+###### 2.6 Formulação da recursividade [:fa-book:](/conteudo/aulas/26recursividadeformulacao.html)
+###### 2.7 Programação recursiva [:fa-book:](/conteudo/aulas/26Bprogramacaorecursiva.html) [:fa-tv:](https://youtu.be/-lvb4a9XlBQ) [:fa-tv:](https://youtu.be/hLjzT8-JTwA) [:fa-tv:](https://youtu.be/dSk5EwLsTO8) [:fa-tv:](https://youtu.be/Da7SglEH2sk) [:fa-tv:](https://youtu.be/gRU45SzvVj4)
 
 #### Módulo 3 - Coleções de dados
-###### Coleções de dados: Listas e Registros [:fa-book:](/conteudo/aulas/12colecoes.html) [:fa-tv:](https://youtu.be/nfiJpiOGElA)
-###### O problema das compras [:fa-book:](/conteudo/aulas/13colecoes_compras.html) [:fa-tv:](https://youtu.be/V8NTzGHIZYA)
-###### Mapeamento de elementos [:fa-book:](/conteudo/aulas/14mapeamento.html) [:fa-tv:](https://youtu.be/w5I1HLLQ5yI) [:fa-tv:](https://youtu.be/IzBosJgniWc) [:fa-tv:](https://youtu.be/LJ5OY9ky6kw) [:fa-tv:](https://youtu.be/JinulM8LOxI)
-###### Filtragem de elementos [:fa-book:](/conteudo/aulas/15filtragem.html) [:fa-tv:](https://youtu.be/FAXLp33tICY)
-###### Operações de Redução [:fa-book:](/conteudo/aulas/16reducao.html) [:fa-tv:](https://youtu.be/YG63uLaXPl4)
-###### Composição de funções [:fa-book:](/conteudo/aulas/17composicao.html) [:fa-tv:](https://youtu.be/VYz9aszr5jc)
-###### Manipulação de dados em arquivo [:fa-book:](/conteudo/aulas/18arquivos.html) [:fa-tv:](https://youtu.be/THPdtPbM11o) [:fa-tv:](https://youtu.be/_cMkkER7b50)
+###### 3.1 Coleções de dados: Listas e Registros [:fa-book:](/conteudo/aulas/12colecoes.html) [:fa-tv:](https://youtu.be/nfiJpiOGElA)
+###### 3.2 O problema das compras [:fa-book:](/conteudo/aulas/13colecoes_compras.html) [:fa-tv:](https://youtu.be/V8NTzGHIZYA)
+###### 3.3 Mapeamento de elementos [:fa-book:](/conteudo/aulas/14mapeamento.html) [:fa-tv:](https://youtu.be/w5I1HLLQ5yI) [:fa-tv:](https://youtu.be/IzBosJgniWc) [:fa-tv:](https://youtu.be/LJ5OY9ky6kw) [:fa-tv:](https://youtu.be/JinulM8LOxI)
+###### 3.4 Filtragem de elementos [:fa-book:](/conteudo/aulas/15filtragem.html) [:fa-tv:](https://youtu.be/FAXLp33tICY)
+###### 3.5 Operações de Redução [:fa-book:](/conteudo/aulas/16reducao.html) [:fa-tv:](https://youtu.be/YG63uLaXPl4)
+###### 3.6 Composição de funções [:fa-book:](/conteudo/aulas/17composicao.html) [:fa-tv:](https://youtu.be/VYz9aszr5jc)
+###### 3.7 Manipulação de dados em arquivo [:fa-book:](/conteudo/aulas/18arquivos.html) [:fa-tv:](https://youtu.be/THPdtPbM11o) [:fa-tv:](https://youtu.be/_cMkkER7b50)
 
 #### Módulo 4 - Princípios do paradigma
-###### Pureza [:fa-book:](/conteudo/aulas/19principiospureza.html) [:fa-tv:](https://youtu.be/29AdYufpn90) [:fa-tv:](https://youtu.be/i_23DNjhWbw)
-###### Funções de Alta Ordem [:fa-book:](/conteudo/aulas/20principiosaltaordem.html) [:fa-tv:](https://youtu.be/kwccTc4XTMA)
-###### Cidadãs de Primeira Classe [:fa-book:](/conteudo/aulas/21principiosprimeiraclasse.html) [:fa-tv:](https://youtu.be/pgbcJuLOhpw)
-###### Imutabilidade [:fa-book:](/conteudo/aulas/22principiosimutabilidade.html) [:fa-tv:](https://youtu.be/Gwtocq8a8IA) [:fa-tv:](https://youtu.be/k9KmbvgrRkE) [:fa-tv:](https://youtu.be/k3RzJHF20l0)
-###### *Closure* [:fa-book:](/conteudo/aulas/23principiosclosure.html)
-###### *Currying* [:fa-book:](/conteudo/aulas/24principioscurrying.html) [:fa-tv:](https://youtu.be/QoaY_1RLcis) [:fa-tv:](https://youtu.be/BkgIpXj3U70)
-###### Avaliação tardia [:fa-book:](/conteudo/aulas/25principiosavaltardia.html)
+###### 4.1 Pureza [:fa-book:](/conteudo/aulas/19principiospureza.html) [:fa-tv:](https://youtu.be/29AdYufpn90) [:fa-tv:](https://youtu.be/i_23DNjhWbw)
+###### 4.2 Funções de Alta Ordem [:fa-book:](/conteudo/aulas/20principiosaltaordem.html) [:fa-tv:](https://youtu.be/kwccTc4XTMA)
+###### 4.3 Cidadãs de Primeira Classe [:fa-book:](/conteudo/aulas/21principiosprimeiraclasse.html) [:fa-tv:](https://youtu.be/pgbcJuLOhpw)
+###### 4.4 Imutabilidade [:fa-book:](/conteudo/aulas/22principiosimutabilidade.html) [:fa-tv:](https://youtu.be/Gwtocq8a8IA) [:fa-tv:](https://youtu.be/k9KmbvgrRkE) [:fa-tv:](https://youtu.be/k3RzJHF20l0)
+###### 4.5 *Closure* [:fa-book:](/conteudo/aulas/23principiosclosure.html)
+###### 4.6 *Currying* [:fa-book:](/conteudo/aulas/24principioscurrying.html) [:fa-tv:](https://youtu.be/QoaY_1RLcis) [:fa-tv:](https://youtu.be/BkgIpXj3U70)
+###### 4.7 Avaliação tardia [:fa-book:](/conteudo/aulas/25principiosavaltardia.html)
 
 #### Módulo 5 - Recursividade em lista
-###### Formulação da recursividade em lista [:fa-book:](/conteudo/aulas/27recursividadeformulacaolista.html)
-###### Programação recursiva em listas [:fa-book:](/conteudo/aulas/28programacaorecursivalistas.html) [:fa-tv:](https://youtu.be/WkZwwO4QuYY) [:fa-tv:](https://youtu.be/PsHE_03uMXw) [:fa-tv:](https://youtu.be/lYevaQLxNmk) [:fa-tv:](https://youtu.be/8Wv-E2F4J48) [:fa-tv:](https://youtu.be/zeNeAmtf2Rk) [:fa-tv:](https://youtu.be/XNh0ZetDIyI)
-###### Recursividade em cauda [:fa-book:](/conteudo/aulas/29recursividadecauda.html)
+###### 5.1 Formulação da recursividade em lista [:fa-book:](/conteudo/aulas/27recursividadeformulacaolista.html)
+###### 5.2 Programação recursiva em listas [:fa-book:](/conteudo/aulas/28programacaorecursivalistas.html) [:fa-tv:](https://youtu.be/WkZwwO4QuYY) [:fa-tv:](https://youtu.be/PsHE_03uMXw) [:fa-tv:](https://youtu.be/lYevaQLxNmk) [:fa-tv:](https://youtu.be/8Wv-E2F4J48) [:fa-tv:](https://youtu.be/zeNeAmtf2Rk) [:fa-tv:](https://youtu.be/XNh0ZetDIyI)
+###### 5.3 Recursividade em cauda [:fa-book:](/conteudo/aulas/29recursividadecauda.html)
 
-#### Apêndice - Entrada de dados
-###### Janela de prompt [:fa-book:](/conteudo/aulas/30apendicejanelaprompt.html) [:fa-tv:](https://youtu.be/zLmiKiIXSgA) [:fa-tv:](https://youtu.be/svMNr2ELL8c)
-###### Entrada via console NodeJS [:fa-book:](/conteudo/aulas/31apendiceconsolenodejs.html)
-###### Entrada síncrona via prompt NodeJS [:fa-book:](/conteudo/aulas/32apendicepromptnodejs.html)
-###### Interface com HTML [:fa-book:](/conteudo/aulas/33apendiceentradahtml.html)  [:fa-tv:](https://youtu.be/bUfIfx9ySzI)
+#### Apêndice A - Entrada de dados
+###### A.1 Janela de prompt [:fa-book:](/conteudo/aulas/30apendicejanelaprompt.html) [:fa-tv:](https://youtu.be/zLmiKiIXSgA) [:fa-tv:](https://youtu.be/svMNr2ELL8c)
+###### A.2 Entrada via console NodeJS [:fa-book:](/conteudo/aulas/31apendiceconsolenodejs.html)
+###### A.3 Entrada síncrona via prompt NodeJS [:fa-book:](/conteudo/aulas/32apendicepromptnodejs.html)
+###### A.4 Interface com HTML [:fa-book:](/conteudo/aulas/33apendiceentradahtml.html)  [:fa-tv:](https://youtu.be/bUfIfx9ySzI)
 
-#### Apêndice - Casos de Teste
+#### Apêndice B - Casos de Teste
 ###### Testando funções através de casos de teste [:fa-book:](/conteudo/aulas/34apendicecasosdeteste.html)
 
 --- 
