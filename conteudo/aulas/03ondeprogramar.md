@@ -15,6 +15,7 @@ export_on_save:
 https://code.visualstudio.com/ (+ extensão code-runner)
 
 ## :cloud: **_ONLINE (playgrounds)_**
+codepen.io 
 jsfiddle.net
 
 ## Console Javascript em _browsers_**
