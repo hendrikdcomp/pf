@@ -35,7 +35,7 @@ A seguir, iremos aplicar o conhecimento adquirido até então para resolver um p
 
     **COMO CALCULAR?**
     ```js
-    const calcular = (fcalc) => (p1,p2,p3,p4,p5) => (fdesc) => fdesc(fcalc(p1,p2,p3,p4,p5))
+    const calcular = (fdesc) => (fcalc) => (p1,p2,p3,p4,p5) => fdesc(fcalc(p1,p2,p3,p4,p5))
     ```
 
     **DEPENDÊNCIA 1 (função `desc10`)**
