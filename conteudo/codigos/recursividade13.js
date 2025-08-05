@@ -1,6 +1,5 @@
-const indef = x => typeof x == 'undefined'
 const maior = ([x,...xs]) => {
-    if (indef(x)) {return 'Lista vazia'}
+    if (x === undefined) {return 'Lista vazia'}
     else return maiorAux([x,...xs])
 }
 const maiorAux = ([x,...xs]) => {

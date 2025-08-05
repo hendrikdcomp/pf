@@ -9,7 +9,7 @@ export_on_save:
 ---
 <!-- 28 -->
 
-# Programação recursiva em listas
+# Programação recursiva em listas 
 
 **PADRÃO 1: realizar uma operação de redução numérica em uma lista de valores.**
 
@@ -24,7 +24,7 @@ export_on_save:
     const soma = (lista) => {
         if (lista.length == 0) {return 0} 
         else {
-            const head = lista.slice(0,1)[0]
+            const head = lista[0]
             const tail = lista.slice(1)
             return (head + soma(tail))
         }
@@ -43,32 +43,11 @@ export_on_save:
     ```
     Versão com teste acerca de _valor indefinido_ e _operador condicional ternário_ 
     ```js
-    const indef = x => typeof x == 'undefined'
-    const soma = ([x, ...xs]) => indef(x) ? 0 : x + soma(xs)
+    const soma = ([x, ...xs]) => x === undefined ? 0 : x + soma(xs)
     ```
     [:fa-download:](../codigos/recursividade02.js)
 
 **PADRÃO 2: retornar o elemento de uma lista que atenda a um determinado critério.**
-
-!!! note [EXEMPLO] Encontrar o último elemento de uma lista qualquer passada.
-
-    _Formulação recursiva_
-    $ultimo(\{\}) = vazia\\
-    ultimo(\{a_1\}) = a_1\\
-    ultimo(\{a_1...a_n\}) = ultimo(\{...a_n\})$
-
-    Uso de _função de interface_ para tratar listas vazias
-    ```js
-    const ultimo = ([x, ...xs]) => {
-        if (indef(x)) return 'Lista vazia' 
-        else return ultimoAux([x, ...xs])
-    }
-    const ultimoAux = ([x, ...xs]) => {
-        if (xs.length == 0) return x
-        else return ultimoAux(xs)
-    }
-    ```
-    [:fa-download:](../codigos/recursividade08.js)
 
 !!! note [EXEMPLO] Encontrar o maior elemento de uma lista.
 
@@ -79,7 +58,7 @@ export_on_save:
 
     ```js
     const maior = ([x,...xs]) => {
-        if (indef(x)) {return 'Lista vazia'}
+        if (x === undefined) {return 'Lista vazia'}
         else return maiorAux([x,...xs])
     }
     const maiorAux = ([x,...xs]) => {
@@ -102,7 +81,7 @@ export_on_save:
 
     ```js
     const inverte = ([x, ...xs]) => 
-        indef(x) ? [] : [...inverte(xs), x]
+        x === undefined ? [] : [...inverte(xs), x]
     ```
     [:fa-download:](../codigos/recursividade09.js)
 
@@ -113,9 +92,8 @@ export_on_save:
     duplica(\{a_1...a_n\}) = \{a_1,a_1,...duplica(\{...a_n\})\}$
 
     ```js
-    const indef = x => typeof x == 'undefined'
     const duplica = ([x, ...xs]) => 
-        indef(x) ? [] : [x,x,...duplica(xs)]
+        x === undefined ? [] : [x,x,...duplica(xs)]
     ```
     [:fa-download:](../codigos/recursividade10.js)
 
@@ -129,7 +107,7 @@ export_on_save:
 
     ```js
     const elem = (e,[x,...xs]) => {
-        if (indef(x)) {return false}
+        if (x === undefined) {return false}
         else return (e===x) || elem(e,[...xs])
     }
     ``` 

@@ -9,7 +9,7 @@ export_on_save:
 ---
 <!-- 26B -->
 
-# Programação recursiva
+# Programação recursiva 
 
 Vimos anteriormente como conceber uma fórmula recursiva apropriada para variados problemas. Essa formulação recursiva usualmente consiste na identificação de um **Caso Base**, que representa a solução do subproblema mais simples possível e do **Passo Indutivo** (ou **Caso Geral**), que representa a solução de todas as outras situações através da percepção de que um problema maior é composto por problemas menores que compartilham o mesmo algoritmo de solução.
 
@@ -71,7 +71,7 @@ Agora, iremos ver como converter essa formulação recursiva para a implementaç
 
 !!! note [EXEMPLO] Implementar o operador de exponenciação para permitir calcular a potência _inteira_ de um número $m$ qualquer: $m^n$.
 
-    _Uso de **função de interface**_
+    _Uso de **função auxiliar**_
     ```js
     const pot = (m,n) => {
         if (n<0) return 1/potAux(m,n*(-1))
